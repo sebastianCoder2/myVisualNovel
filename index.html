@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+	<title>Game of Life</title>
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+	<script src="jquery-3.1.1.min.js"></script>
+</head>
+<body>
+	<div  id="main-screen">
+	<h1 id="game-title">Game of life</h1>
+		<ul id="start-menu">
+			<li id="startGame">Start Game</li>
+			<li>Quit!</li>
+		</ul>
+	</div>
+	<audio autoplay>
+  <source src="music/Forget_the_Whale_-_07_-_10_Days_INSTRUMENTAL.mp3" type="audio/mpeg">
+</audio>
+<script type="text/javascript">
+$( "#startGame" ).click(function() {
+  $( "#main-screen" ).fadeOut( "slow", function() {
+  	$.each($('audio'), function () {
+    this.pause();
+    window.location.replace("Chapters/chapter1/chapter1.html");
+});
+    
+  });
+});
+</script>
+</body>
+</html>

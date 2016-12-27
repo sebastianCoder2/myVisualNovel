@@ -1,0 +1,29 @@
+body{
+margin: 0;
+background-color: black;
+overflow: hidden;
+}
+
+#main-screen{
+	width: 1220px;
+	height: 100vh;
+	background-color: black;
+	margin: auto;
+	background-image: url('../images/menu-background.png');
+	background-size: 100%;
+	text-align: center;
+}
+#start-menu{
+	width:750px;
+margin:0 auto;
+list-style:none;
+text-align:center;
+position: relative;
+top: 50%;
+}
+#main-screen-chapter1{
+	width: 1220px;
+	height: 100vh;
+	background-color: white;
+	margin: auto;
+}

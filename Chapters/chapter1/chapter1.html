@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+	<title>Game of Life</title>
+	<link rel="stylesheet" type="text/css" href="../../css/stylesheet.css" />
+	<script src="../../jquery-3.1.1.min.js"></script>
+	<script src="texteJSON.json"></script>
+</head>
+<body style="display: none;">
+	<div  id="main-screen-chapter1">
+		<div id="textBox">
+		<p id="personWhoTalk">
+		</p>
+			<p id="text">
+			Der start Text.
+			</p>
+		</div>
+		<div id="character">
+		</div>
+	</div>
+	<audio autoplay>
+  <source src="" type="audio/mpeg">
+</audio>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		
+ 
+    $("body").fadeIn(2000);
+	});
+		
+		counter = -1;
+
+		
+		var mydata = $.parseJSON(sprecherText);
+		
+		var placeHolderText = 0;
+		var placeHolderName = 0;
+
+ $('body').click(function () {
+ 		jQuery('#text').html('');
+ 		jQuery('#personWhoTalk').html('');
+ 		jQuery('#character').html('');
+        counter = (counter + 1) % mydata.length;
+        console.log(mydata[counter].image);
+
+        var imgList= setInterval(function(){
+        	var charImg = ""; 
+        	charImg += '<li><img src= "' + mydata[counter].image + '"></li>';
+        	$('#character').append(charImg);
+        	clearInterval(imgList);
+        });
+        
+
+
+
+var textAdder = setInterval(function(){
+    document.getElementById("text").innerHTML += mydata[counter].text.charAt(placeHolderText);
+    if (++placeHolderText == mydata[counter].text.length){
+        clearInterval(textAdder);
+        placeHolderText=0;
+    }
+}, 10);
+
+var nameAdder = setInterval(function(){
+
+    document.getElementById("personWhoTalk").innerHTML += mydata[counter].name.charAt(placeHolderName);
+    if (++placeHolderName == mydata[counter].name.length){
+        clearInterval(nameAdder);
+        placeHolderName=0;
+    }
+}, 10);
+});
+	</script>
+</body>
+</html>
