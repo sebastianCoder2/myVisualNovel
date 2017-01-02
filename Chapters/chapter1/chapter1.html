@@ -20,6 +20,7 @@
 		<p id="personWhoTalk">
 		</p>
 			<p id="text">
+			test
 			</p>
 		</div>
 		<div id="character">
@@ -79,6 +80,11 @@ var textAdder = setInterval(function(){
     if (++placeHolderText == mydata[counter].text.length){
         clearInterval(textAdder);
         placeHolderText=0;
+    }else{
+    	$('body').click(function(){
+    		clearInterval(textAdder);
+    		placeHolderText=0;
+    	});
     }
 }, 1);
 
@@ -88,6 +94,11 @@ var nameAdder = setInterval(function(){
     if (++placeHolderName == mydata[counter].name.length){
         clearInterval(nameAdder);
         placeHolderName=0;
+    }else{
+    	$('body').click(function(){
+    		clearInterval(nameAdder);
+    		placeHolderName=0;
+    	});
     }
 }, 1);
 	if (counter==mydata.length-1){
