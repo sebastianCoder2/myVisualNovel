@@ -1,2 +1,2 @@
 # myVisualNovel
-Hi Im trying to make my own Visual Novel based on Javascript.
+Hi Im trying to make my own Visual Novel based on Javascript/HTML/CSS.
