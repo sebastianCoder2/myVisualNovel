@@ -6,20 +6,18 @@
 	<link rel="stylesheet" type="text/css" href="../../css/stylesheet.css" />
 	<script src="../../jquery-3.1.1.min.js"></script>
 	<script src="texteJSON.json"></script>
-	<script src="state-machine.js"></script>
-	<script src="VnSm.js"></script>
-
 </head>
 <body style="display: none;">
-	<div id="main-screen-chapter1">
+	<div  id="main-screen-chapter1">
 	<div id ="decision">
-	<span id="option1" onclick="Demo.option1();"></span>
-	<span id="option2" onclick="Demo.option2();"></span>
+	<span id="option1"></span>
+	<span id="option2"></span>
 		 </div>
 		<div id="textBox">
 		<p id="personWhoTalk">
 		</p>
 			<p id="text">
+			Der start Text.
 			</p>
 		</div>
 		<div id="character">
@@ -30,30 +28,20 @@
   <source src="" type="audio/mpeg">
 </audio>
 	<script type="text/javascript">
-	
+	$(document).ready(function() {
+		
+ 
+    $("body").fadeIn(2000);
+	});
 		
 		counter = -1;
 
 		
 		var mydata = $.parseJSON(sprecherText);
 		var decisionJson = $.parseJSON(choose1);
-		var sceneBackground = $.parseJSON(backgrounds);
-
+		
 		var placeHolderText = 0;
 		var placeHolderName = 0;
-
-
-$(document).ready(function() {
-		
- 
-    $("body").fadeIn(2000,function(){
-    	var bg="url(" + sceneBackground[0].image + ")";
-    	$("#main-screen-chapter1").css("background-image", bg);
-    });
-
-	});
-
-
 
  $('body').click(function () {
  		jQuery('#text').html('');
@@ -62,13 +50,11 @@ $(document).ready(function() {
         counter = (counter + 1) % mydata.length;
         console.log(counter);
 
-
         var imgList= setInterval(function(){
         	var charImg = ""; 
         	charImg += '<li><img src= "' + mydata[counter].image + '"></li>';
         	$('#character').append(charImg);
         	clearInterval(imgList);
-        	console.log(mydata[counter].image);
         });
         
 
