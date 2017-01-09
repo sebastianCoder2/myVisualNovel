@@ -8,6 +8,7 @@ Demo = function() {
       clear  = document.getElementById('clear'),
       option1 = document.getElementById('option1'),
       option2 = document.getElementById('option2'),
+      option3 = document.getElementById('option3'),
       count  = 0;
 
   
@@ -18,6 +19,7 @@ Demo = function() {
       { name: 'start', from: 'none',   to: 'firstChapter'  },
       { name: 'option1',  from: 'firstChapter',  to: 'firstChapterOption1' },
       { name: 'option2', from: 'firstChapter',  to: 'firstChapterOption2' },
+      { name: 'option3', from: 'firstChapter',  to: 'firstChapterOption3' },
       { name: 'panic', from: 'yellow', to: 'red'    },
       { name: 'calm',  from: 'red',    to: 'yellow' },
       { name: 'clear', from: 'red',    to: 'green'  },
@@ -49,6 +51,7 @@ Demo = function() {
       onfirstChapter:       function(event, from, to) { alert("ENTER   STATE: firstChapter");  },
       onfirstChapterOption1:       function(event, from, to) { alert("ENTER   STATE: firstChapterOP1");  },
       onfirstChapterOption2:       function(event, from, to) { alert("ENTER   STATE: firstChapterOP2");  },
+      onfirstChapterOption3:       function(event, from, to) { alert("ENTER   STATE: firstChapterOP3");  },
 
       onyellow:      function(event, from, to) { alert("ENTER   STATE: yellow"); },
       onred:         function(event, from, to) { alert("ENTER   STATE: red");    },

@@ -19,6 +19,6 @@ sprecherText = '[\
 	{"name" : " ","text":"Jeff takes a breath for an answer, but...","image":" "},\
 	{"name" : "Mom","text":"I am very disappointed, Jeff. My patience was sorely tried... You have to decide NOW! Or I throw you out of this house!","image":"./images/char2.png"}]';
 
-choose1 = '[{"option1":"Come down, Mum. I will apply for an apprenticeship.","option2":"Everything is right, Mum. I will go study!"}]';
+choose1 = '[{"option1":"Come down, Mum. I will apply for an apprenticeship.","option2":"Everything is right, Mum. I will go study!","option3":"You are just scared!"}]';
 
 backgrounds ='[{"image":"./images/background1.jpg"}]'

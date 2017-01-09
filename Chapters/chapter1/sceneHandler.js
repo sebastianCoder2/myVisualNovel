@@ -92,7 +92,7 @@ $(document).ready(function() {
                 $('#option2').show();
                 $('#option3').show();
 
-                $("#main-screen-chapter1").css("filter", "grayscale(100%)");
+                //$("#main-screen-chapter1").css("filter", "grayscale(100%)");
 
             }
     	}
