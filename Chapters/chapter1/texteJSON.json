@@ -1,24 +1,22 @@
 sprecherText = '[\
-	{"name" : " ","text":"The first sunrays light up the dark sky. They let the clouds pink shining and let the earth warm up. The world awakes. And as a part of it, Jeff wakes up, too. The first thing he see, is the half eaten pizza from the eve. Right next to his bed, on the floor. Beside an open chip pack. Taste like Currywurst. Jeff loves Currywurst. Then he becomes aware that the TV is still running. N24. A documentation about Das DritteReich. Two Pictures of Hitler, the war and all this stuff flicker over the screen.","image":" "},\
-	{"name" : " ","text":"Afterwards another documentation is running. About the secrets of space, with Stephen Hawking. He is slowly falling asleep again... A terrible sound makes him wake up abruptly! His smartphone vibrates under the pillow. His hand is looking for it hastily. Jeffs mother is calling. He suddenly remember that he has forgot to empty the dishwasher. In Addition he forgot that he owe her money. 30 Euro. He get goosebumps. He picks up the phone answer in a trembling voice:","image":" "},\
-	{"name" : "Jeff","text":"Hello, Mum.","image":"./images/char1.png"},\
-	{"name" : "Mom","text":"Good morning, Jeff!","image":"./images/char2.png"},\
-	{"name" : " ","text":"Her voice sounds cold. Jeff knows her kind to speak. This could not be a good thing.","image":" "},\
-	{"name" : "Mom","text":"You havent done the dishwasher! And why did you forgot the 30€?!","image":"./images/char2.png"},\
-	{"name" : "Jeff","text":"I will... I mean that...","image":"./images/char1.png"},\
-	{"name" : "Mom","text":"No! It is enough! I dont want to hear your excuses anymore! I want that you begin an apprenticeship. Or you can start to study, too! But I want that you DO SOMETHING with your life!","image":"./images/char2.png"},\
-	{"name" : "Jeff","text":"Yes, Mum...","image":"./images/char1.png"},\
-	{"name" : "Mom","text":"I want to see some results soon! Do something!","image":"./images/char2.png"},\
-	{"name" : "Jeff","text":"Yes... Mum...","image":"./images/char1.png"},\
-	{"name" : "Mom","text":"Yes! Yes! I still here this word from you since you are out of school! I cant here it anymore! I have to get back to work again. We talk later again!","image":"./images/char2.png"},\
-	{"name" : "Jeff","text":"Okay, Bye Mu...","image":"./images/char1.png"},\
-	{"name" : " ","text":"But she was already gone.","image":" "},\
-	{"name" : " ","text":"Jeff stands up. He is exasperated. I should play some minutes for now. He thought like everyday. Just to wake up in full strength. Other people drink coffee or do yoga. Jeff is a gamer. The hours pass by. And Jeff did not notice that.","image":" "},\
-	{"name" : " ","text":"Jeff plays a computer game. It is 5pm. With a Headset, he speaks with his friends and plays his favorite game: Farming Simulator 2017. During his job as a farmer, he hears a wellknown sound. Goosebumps again. He mutes his Headset instinctively. Not a moment to soon. The door opens and Jeffs mother stands in the middle of the room.","image":" "},\
-	{"name" : "Mom","text":"YOU MUST BE KIDDING! It looks like a pigsty in here!","image":"./images/char2.png"},\
-	{"name" : " ","text":"Jeff takes a breath for an answer, but...","image":" "},\
-	{"name" : "Mom","text":"I am very disappointed, Jeff. My patience was sorely tried... You have to decide NOW! Or I throw you out of this house!","image":"./images/char2.png"}]';
+	{"name" : "","text":"The first sunrays light up the dark sky. They let the clouds pink shining and let the earth warm up. The world awakes. And as a part of it, Jeff wakes up, too. The first thing he see, is the half eaten pizza from the eve. Right next to his bed, on the floor. Beside an open chip pack. Taste like Currywurst. Jeff loves Currywurst. Then he becomes aware that the TV is still running. N24. A documentation about Das DritteReich. Two Pictures of Hitler, the war and all this stuff flicker over the screen.","image":" ","bgimg":" "},\
+	{"name" : " ","text":"Afterwards another documentation is running. About the secrets of space, with Stephen Hawking. He is slowly falling asleep again... A terrible sound makes him wake up abruptly! His smartphone vibrates under the pillow. His hand is looking for it hastily. Jeffs mother is calling. He suddenly remember that he has forgot to empty the dishwasher. In Addition he forgot that he owe her money. 30 Euro. He get goosebumps. He picks up the phone answer in a trembling voice:","image":" ","bgimg":" "},\
+	{"name" : "Jeff","text":"Hello, Mum.","image":"./images/char1.png","bgimg":"./images/bgimg/background1.jpg"},\
+	{"name" : "Mom","text":"Good morning, Jeff!","image":"./images/char2.png","bgimg":"./images/bgimg/background1.jpg"},\
+	{"name" : " ","text":"Her voice sounds cold. Jeff knows her kind to speak. This could not be a good thing.","image":" ","bgimg":"./images/bgimg/background1.jpg"},\
+	{"name" : "Mom","text":"You havent done the dishwasher! And why did you forgot the 30€?!","image":"./images/char2.png","bgimg":"./images/bgimg/background1.jpg"},\
+	{"name" : "Jeff","text":"I will... I mean that...","image":"./images/char1.png","bgimg":"./images/bgimg/background1.jpg"},\
+	{"name" : "Mom","text":"No! It is enough! I dont want to hear your excuses anymore! I want that you begin an apprenticeship. Or you can start to study, too! But I want that you DO SOMETHING with your life!","image":"./images/char2.png","bgimg":"./images/bgimg/background1.jpg"},\
+	{"name" : "Jeff","text":"Yes, Mum...","image":"./images/char1.png","bgimg":"./images/bgimg/background1.jpg"},\
+	{"name" : "Mom","text":"I want to see some results soon! Do something!","image":"./images/char2.png","bgimg":"./images/bgimg/background1.jpg"},\
+	{"name" : "Jeff","text":"Yes... Mum...","image":"./images/char1.png","bgimg":"./images/bgimg/background1.jpg"},\
+	{"name" : "Mom","text":"Yes! Yes! I still here this word from you since you are out of school! I cant here it anymore! I have to get back to work again. We talk later again!","image":"./images/char2.png","bgimg":"./images/bgimg/background1.jpg"},\
+	{"name" : "Jeff","text":"Okay, Bye Mu...","image":"./images/char1.png","bgimg":"./images/bgimg/background1.jpg"},\
+	{"name" : " ","text":"But she was already gone.","image":" ","bgimg":"./images/bgimg/background1.jpg"},\
+	{"name" : " ","text":"Jeff stands up. He is exasperated. I should play some minutes for now. He thought like everyday. Just to wake up in full strength. Other people drink coffee or do yoga. Jeff is a gamer. The hours pass by. And Jeff did not notice that.","image":" ","bgimg":"./images/bgimg/background1.jpg"},\
+	{"name" : " ","text":"Jeff plays a computer game. It is 5pm. With a Headset, he speaks with his friends and plays his favorite game: Farming Simulator 2017. During his job as a farmer, he hears a wellknown sound. Goosebumps again. He mutes his Headset instinctively. Not a moment to soon. The door opens and Jeffs mother stands in the middle of the room.","image":" ","bgimg":"./images/bgimg/background1.jpg"},\
+	{"name" : "Mom","text":"YOU MUST BE KIDDING! It looks like a pigsty in here!","image":"./images/char2.png","bgimg":"./images/bgimg/background1.jpg"},\
+	{"name" : " ","text":"Jeff takes a breath for an answer, but...","image":" ","bgimg":"./images/bgimg/background1.jpg"},\
+	{"name" : "Mom","text":"I am very disappointed, Jeff. My patience was sorely tried... You have to decide NOW! Or I throw you out of this house!","image":"./images/char2.png","bgimg":"./images/bgimg/background1.jpg"}]';
 
 choose1 = '[{"option1":"Come down, Mum. I will apply for an apprenticeship.","option2":"Everything is right, Mum. I will go study!","option3":"You are just scared!"}]';
-
-backgrounds ='[{"image":"./images/background1.jpg"}]'

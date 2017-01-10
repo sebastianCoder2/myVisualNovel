@@ -2,6 +2,7 @@ body{
 margin: 0;
 background-color: black;
 overflow: hidden;
+user-select: none;
 }
 
 #main-screen{
@@ -24,7 +25,7 @@ top: 50%;
 #main-screen-chapter1{
 	width: 1220px;
 	height: 100vh;
-	background-color: white;
+	background-color: black;
 	margin: auto;
 	position: relative;
 }

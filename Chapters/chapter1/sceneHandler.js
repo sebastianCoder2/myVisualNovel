@@ -3,16 +3,15 @@ counter = -1;
 		
 		var mydata = $.parseJSON(sprecherText);
 		var decisionJson = $.parseJSON(choose1);
-		var sceneBackground = $.parseJSON(backgrounds);
-        console.log(sceneBackground);
+        
 
 		var placeHolderText = 0;
 		var placeHolderName = 0;
 
 
 $(document).ready(function() {
-		
-	var bg="url(" + sceneBackground[0].image + ")";
+
+	var bg="url(" + mydata[0].bgimg + ")";
     $("#main-screen-chapter1").css("background-image", bg);
  
     $("body").fadeIn(2000,function(){
@@ -21,11 +20,20 @@ $(document).ready(function() {
 
 	
  $('body').click(function () {
+        $('#textBox').show();
  		jQuery('#text').html('');
  		jQuery('#personWhoTalk').html('');
  		jQuery('#character').html('');
         counter = (counter + 1) % mydata.length;
         console.log(counter);
+
+         
+                    
+        var bg ="url(" + mydata[counter].bgimg + ")";
+        $("#main-screen-chapter1").css("background-image", bg);
+        console.log(mydata[counter].bgimg);
+                
+
 
 
         var imgList= setInterval(function(){
