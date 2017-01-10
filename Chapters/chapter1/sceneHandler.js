@@ -21,9 +21,9 @@ $(document).ready(function() {
 	
  $('body').click(function () {
         $('#textBox').show();
- 		jQuery('#text').html('');
- 		jQuery('#personWhoTalk').html('');
- 		jQuery('#character').html('');
+ 		$('#text').html('');
+ 		$('#personWhoTalk').html('');
+ 		$('#character').html('');
         counter = (counter + 1) % mydata.length;
         console.log(counter);
 
@@ -34,34 +34,28 @@ $(document).ready(function() {
         console.log(mydata[counter].bgimg);
                 
 
-
-
-        var imgList= setInterval(function(){
-        	var charImg = ""; 
-        	charImg += '<li><img src= "' + mydata[counter].image + '"></li>';
-        	$('#character').append(charImg);
-        	clearInterval(imgList);
-        	console.log(mydata[counter].image);
-        });
+        var charImg = ""; 
+        charImg += '<li><img src= "' + mydata[counter].image + '"></li>';
+        $('#character').append(charImg);
+        console.log(mydata[counter].image);
         
 
-
-
         var textAdder = setInterval(function(){
-        document.getElementById("text").innerHTML += mydata[counter].text.charAt(placeHolderText);
-        if (++placeHolderText == mydata[counter].text.length){
-            clearInterval(textAdder);
-            placeHolderText=0;
-        }else{
-        	$('body').click(function(){
-        		clearInterval(textAdder);
-        		placeHolderText=0;
-        	});
-        }
+            document.getElementById("text").innerHTML += mydata[counter].text.charAt(placeHolderText);
+            if (++placeHolderText == mydata[counter].text.length){
+                clearInterval(textAdder);
+                placeHolderText=0;
+            }else{
+            	$('body').click(function(){
+
+            		clearInterval(textAdder);
+            		placeHolderText=0;
+            	});
+            }
     }, 1);
 
-        var nameAdder = setInterval(function(){
 
+        var nameAdder = setInterval(function(){
             document.getElementById("personWhoTalk").innerHTML += mydata[counter].name.charAt(placeHolderName);
             if (++placeHolderName == mydata[counter].name.length){
                 clearInterval(nameAdder);
