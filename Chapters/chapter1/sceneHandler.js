@@ -20,6 +20,7 @@ $(document).ready(function() {
 
 	
  $('body').click(function () {
+        $('#clicktostart').hide();
         $('#textBox').show();
  		$('#text').html('');
  		$('#personWhoTalk').html('');
