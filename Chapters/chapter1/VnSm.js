@@ -30,21 +30,20 @@ Demo = function() {
       onbeforestart: function(event, from, to) { alert("STARTING UP"); },
       onstart:       function(event, from, to) { alert("READY");       },
 
-      onbeforewarn:  function(event, from, to) { alert("START   EVENT: warn!",  true);  },
+      onbeforoption1:  function(event, from, to) { alert("START   EVENT: warn!",  true);  },
       onbeforepanic: function(event, from, to) { alert("START   EVENT: panic!", true);  },
       onbeforecalm:  function(event, from, to) { alert("START   EVENT: calm!",  true);  },
       onbeforeclear: function(event, from, to) { alert("START   EVENT: clear!", true);  },
 
       onoption1:        function(event, from, to) {
+      	
         window.location.replace("chapter1Option1.html");
       },
       onpanic:       function(event, from, to) { alert("FINISH  EVENT: panic!");        },
       oncalm:        function(event, from, to) { alert("FINISH  EVENT: calm!");         },
       onclear:       function(event, from, to) { alert("FINISH  EVENT: clear!");        },
 
-      onleavegreen:  function(event, from, to) { alert("LEAVE   STATE: green");
-    window.location.replace("../Chapters/chapter1/chapter1.html");
-  },  
+       
       onleaveyellow: function(event, from, to) { alert("LEAVE   STATE: yellow"); },
       onleavered:    function(event, from, to) { alert("LEAVE   STATE: red");    async(to); return StateMachine.ASYNC; },
 

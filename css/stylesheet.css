@@ -15,7 +15,7 @@ user-select: none;
 	text-align: center;
 }
 #start-menu{
-	width:750px;
+	width:20%;
 margin:0 auto;
 list-style:none;
 text-align:center;
@@ -28,6 +28,7 @@ top: 50%;
 	background-color: black;
 	margin: auto;
 	position: relative;
+	background-size: cover;
 }
 #textBox{
 	width: 90%;
@@ -112,6 +113,9 @@ td:hover{
     top: 9%;
     font-size:50px;
 }
-li{
+.mainMenuButton{
 	font-size: 25px;
+}
+.mainMenuButton:hover{
+	box-shadow: 1px 1px 20px #888888;
 }

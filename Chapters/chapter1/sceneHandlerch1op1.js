@@ -1,7 +1,7 @@
 counter = -1;
 
 		
-		var mydata = $.parseJSON(chapter1);
+		var mydata = $.parseJSON(chapter1op1);
 		var decisionJson = $.parseJSON(choose1);
         
 
