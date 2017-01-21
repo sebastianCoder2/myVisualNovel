@@ -37,7 +37,7 @@ Demo = function() {
 
       onoption1:        function(event, from, to) {
       	
-        window.location.replace("chapter1Option1.html");
+        //window.location.replace("chapter1Option1.html");
       },
       onpanic:       function(event, from, to) { alert("FINISH  EVENT: panic!");        },
       oncalm:        function(event, from, to) { alert("FINISH  EVENT: calm!");         },

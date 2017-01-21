@@ -16,7 +16,7 @@ $(document).ready(function() {
     	
     });
 
-	
+
  $('body').click(function () {
         $('#clicktostart').hide();
         $('#textBox').show();
@@ -93,9 +93,12 @@ $(document).ready(function() {
                 $('#option2').show();
                 $('#option3').show();
 
-                //$("#main-screen-chapter1").css("filter", "grayscale(100%)");
 
             }
+           $( "#option1" ).click(function() {
+  mydata = $.parseJSON(chapter1op1);
+});
     	}
+
     });
 });
