@@ -23,7 +23,12 @@ $(document).ready(function() {
  		$('#text').html('');
  		$('#personWhoTalk').html('');
  		$('#character').html('');
+        
+        if (counter==mydata.length-1){
+            counter = mydata.length-1
+        }else{
         counter = (counter + 1) % mydata.length;
+    }
         console.log(counter);
 
          
@@ -69,7 +74,8 @@ $(document).ready(function() {
 
     	if (counter==mydata.length-1){
 
-    		$( "body").unbind( "click" );
+    		
+            
 
     		var op1;
     		var op2;
@@ -97,6 +103,11 @@ $(document).ready(function() {
             }
            $( "#option1" ).click(function() {
   mydata = $.parseJSON(chapter1op1);
+  counter=0;
+
+                $('#option1').hide();
+                $('#option2').hide();
+                $('#option3').hide();
 });
     	}
 
