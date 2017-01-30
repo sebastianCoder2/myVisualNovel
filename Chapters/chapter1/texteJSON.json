@@ -32,4 +32,10 @@ chapter1op1 = '[\
 {"name" : " ","text":"Jeff searched for hours to get the knowledge he needs to write an application. But he does not know where to find the right company. He trys the internet one more time. After a few seconds he finds a website with many jobs. Jobmania.","image":" ","bgimg":" "},\
 {"name" : " ","text":"His smartphone rings.","image":" ","bgimg":" "},\
 {"name" : "Jeff","text":"Hello?","image":"./images/char1.png","bgimg":" "},\
-{"name" : "Marco","text":"Hi Jeff! It is me – Marco!","image":"./images/char2.png","bgimg":" "}]';
+{"name" : "Marco","text":"Hi Jeff! It is me – Marco!","image":"./images/char2.png","bgimg":" "},\
+{"name" : " ","text":"Marco is some of Jeffs childhood friends. He lives almost next door to Jeff and sometimes, they meet at the playground or go to the forest. They smoke some cigarettes and exchange their latest news to each other. Jeff does not know why Marco calls him everytime, again and again. Maybe he does not want to smoke alone. Maybe he can not smoke at home, so he needs a smoke-partner. Jeff does not know and it is not important. He needs a smoke-partner, too.","image":" ","bgimg":" "},\
+{"name" : "Jeff","text":"Hi Marco. What is up?.","image":"./images/char1.png","bgimg":" "},\
+{"name" : "Marco","text":"I have to tell you something really incredible! Come and meet me at the playground in 5 minutes,okay?","image":"./images/char2.png","bgimg":" "},\
+{"name" : " ","text":"Jeff frowns. He has to find an apprenticeship... But a little break could do well...He has to decide now.","image":" ","bgimg":" "}]';
+
+choose2 = '[{"option1":"Go and meet Marco.","option2":"Meet Marco later and continue the search for a company.","option3":"Tell Marco, that you do not have time for him anymore. There are now more important things inyour life then friendship."}]';

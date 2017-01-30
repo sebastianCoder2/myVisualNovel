@@ -16,14 +16,17 @@ $(document).ready(function() {
     	
     });
 
-
+$('body').contextmenu(function(e) {
+    e.preventDefault();
+  counter = (counter - 1) % mydata.length;
+});
  $('body').click(function () {
         $('#clicktostart').hide();
         $('#textBox').show();
  		$('#text').html('');
  		$('#personWhoTalk').html('');
  		$('#character').html('');
-        
+        var makechoice = false;
         if (counter==mydata.length-1){
             counter = mydata.length-1
         }else{
@@ -74,9 +77,6 @@ $(document).ready(function() {
 
     	if (counter==mydata.length-1){
 
-    		
-            
-
     		var op1;
     		var op2;
     		var op3;
@@ -102,12 +102,14 @@ $(document).ready(function() {
 
             }
            $( "#option1" ).click(function() {
+            makechoice = true;
   mydata = $.parseJSON(chapter1op1);
-  counter=0;
-
-                $('#option1').hide();
-                $('#option2').hide();
-                $('#option3').hide();
+  decisionJson = $.parseJSON(choose2);
+  counter=-1;
+                $('#option1').empty();
+                $('#option2').empty();
+                $('#option3').empty();
+                
 });
     	}
 
