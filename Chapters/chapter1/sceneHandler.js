@@ -17,8 +17,8 @@ $(document).ready(function() {
     });
 
 $('body').contextmenu(function(e) {
-    e.preventDefault();
-  counter = (counter - 1) % mydata.length;
+    //e.preventDefault();
+  //counter = (counter - 1) % mydata.length;
 });
  $('body').click(function () {
         $('#clicktostart').hide();
@@ -103,9 +103,28 @@ $('body').contextmenu(function(e) {
             }
            $( "#option1" ).click(function() {
             makechoice = true;
-  mydata = $.parseJSON(chapter1op1);
-  decisionJson = $.parseJSON(choose2);
-  counter=-1;
+			mydata = $.parseJSON(chapter1op1);
+			decisionJson = $.parseJSON(choose2);
+			counter=-1;
+                $('#option1').empty();
+                $('#option2').empty();
+                $('#option3').empty();
+                
+});
+$( "#option2" ).click(function() {
+            makechoice = true;
+			mydata = $.parseJSON(chapter1op2);
+			decisionJson = $.parseJSON(choose2);
+			counter=-1;
+                $('#option1').empty();
+                $('#option2').empty();
+                $('#option3').empty();
+                
+});
+$( "#option3" ).click(function() {
+            makechoice = true;
+			mydata = $.parseJSON(chapter1op3);
+			counter=-1;
                 $('#option1').empty();
                 $('#option2').empty();
                 $('#option3').empty();

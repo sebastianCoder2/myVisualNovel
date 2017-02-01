@@ -22,6 +22,7 @@ chapter1 = '[\
 choose1 = '[{"option1":"Come down, Mum. I will apply for an apprenticeship.","option2":"Everything is right, Mum. I will go study!","option3":"You are just scared!"}]';
 
 chapter1op1 = '[\
+{"name" : " ","text":"The next day","image":" ","bgimg":" "},\
 {"name" : " ","text":"Jeff decided to apply to an apprenticeship. He thinks about his strengths and weaknesses. One of his absouletly weakness is that he does not like to work outside. He loves computers and he wants to do something with that. Another weakness is that he has problems to get in touch with other people. He does not like Small Talk, courtesies and all this stuff that is need to get friends or even to have a chance to start a relationship.","image":" ","bgimg":" "},\
 {"name" : " ","text":"Jeff is a loner. He has always been. And he will always stay in that way. But if he wants to live between all this people with all this technical progress (that he finds so appealing and fascinating). With all this advantages and the disadvantages. If he wants to be a part of it, he has to find his place.","image":" ","bgimg":" "},\
 {"name" : "Jeff","text":"Great decisions involves always great risks.","image":" ","bgimg":" "},\
@@ -37,5 +38,31 @@ chapter1op1 = '[\
 {"name" : "Jeff","text":"Hi Marco. What is up?.","image":"./images/char1.png","bgimg":" "},\
 {"name" : "Marco","text":"I have to tell you something really incredible! Come and meet me at the playground in 5 minutes,okay?","image":"./images/char2.png","bgimg":" "},\
 {"name" : " ","text":"Jeff frowns. He has to find an apprenticeship... But a little break could do well...He has to decide now.","image":" ","bgimg":" "}]';
+
+chapter1op2 = '[\
+{"name" : " ","text":"The next day","image":" ","bgimg":" "},\
+{"name" : " ","text":"Jeff decided to study. He thinks about his strengths and weaknesses. One of his absouletly weakness is that he does not like to work outside. He loves computers and he wants to do something with that. Another weakness is that he has problems to get in touch with other people. He does not like Small Talk, courtesies and all this stuff that is need to get friends or even to have a chance to start a relationship.","image":" ","bgimg":" "},\
+{"name" : " ","text":"Jeff is a loner. He has always been. And he will always stay in that way. But if he wants to live between all this people with all this technical progress (that he finds so appealing and fascinating). With all this advantages and the disadvantages. If he wants to be a part of it, he has to find his place.","image":" ","bgimg":" "},\
+{"name" : "Jeff","text":"Great decisions involves always great risks.","image":" ","bgimg":" "},\
+{"name" : " ","text":"He is scared from the idea, that he has to plan his whole life RIGHT now. He has to decide what he wants to do now. Jeff makes a plan.","image":" ","bgimg":" "},\
+{"name" : "Jeff","text":"I want to study – Yes. Something with computers – Yes. But which study course? There are so many.","image":" ","bgimg":" "},\
+{"name" : " ","text":"So he trys to find out something about the differences from the study courses in the internet.","image":" ","bgimg":" "},\
+{"name" : " ","text":"Afternoon","image":" ","bgimg":" "},\
+{"name" : " ","text":"Jeff has searched for hours to get the knowledge he needs. He has selected 2 study courses that he finds interesting, from a website called Studymania. Information Technologies and computer linguistics.","image":" ","bgimg":" "},\
+{"name" : " ","text":"His smartphone rings.","image":" ","bgimg":" "},\
+{"name" : "Jeff","text":"Hello?","image":"./images/char1.png","bgimg":" "},\
+{"name" : "Marco","text":"Hi Jeff! It is me – Marco!","image":"./images/char2.png","bgimg":" "},\
+{"name" : " ","text":"Marco is some of Jeffs childhood friends. He lives almost next door to Jeff and sometimes, they meet at the playground or go to the forest. They smoke some cigarettes and exchange their latest news to each other. Jeff does not know why Marco calls him everytime, again and again. Maybe he does not want to smoke alone. Maybe he can not smoke at home, so he needs a smoke-partner. Jeff does not know and it is not important. He needs a smoke-partner, too.","image":" ","bgimg":" "},\
+{"name" : "Jeff","text":"Hi Marco. What is up?.","image":"./images/char1.png","bgimg":" "},\
+{"name" : "Marco","text":"I have to tell you something really incredible! Come and meet me at the playground in 5 minutes,okay?","image":"./images/char2.png","bgimg":" "},\
+{"name" : " ","text":"Jeff frowns. He has to find an apprenticeship... But a little break could do well...He has to decide now.","image":" ","bgimg":" "}]';
+
+chapter1op3 = '[\
+{"name" : " ","text":"10 Minutes later","image":" ","bgimg":" "},\
+{"name" : " ","text":"Jeff was kicked out from the house by his mom.","image":" ","bgimg":" "},\
+{"name" : " ","text":"He has made the wrong decision.","image":" ","bgimg":" "},\
+{"name" : " ","text":"He is destitute and he has no home anymore.","image":" ","bgimg":" "},\
+{"name" : " ","text":"He went lost in the infinity of the streets. And no one of his old life would ever see him again.","image":" ","bgimg":" "},\
+{"name" : " ","text":"Game Over","image":" ","bgimg":"./images/bgimg/gameover.jpg"}]'
 
 choose2 = '[{"option1":"Go and meet Marco.","option2":"Meet Marco later and continue the search for a company.","option3":"Tell Marco, that you do not have time for him anymore. There are now more important things inyour life then friendship."}]';
