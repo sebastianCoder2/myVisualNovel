@@ -2,6 +2,7 @@ counter = -1;
 
 		
 		var mydata = $.parseJSON(chapter1);
+		
 		var decisionJson = $.parseJSON(choose1);
         
 		var allowclick = true;
@@ -104,7 +105,9 @@ $('body').contextmenu(function(e) {
             }
 			
            $( "#option1" ).click(function() {
-            
+            $("body").fadeOut(2000,function(){
+    	
+    
 			$('body').on('click',clickEvent);
 			mydata = $.parseJSON(chapter1op1);
 			decisionJson = $.parseJSON(choose2);
@@ -117,9 +120,15 @@ $('body').contextmenu(function(e) {
 				$('#option1').hide();
                 $('#option2').hide();
                 $('#option3').hide();
-			  
+				
+				$("body").click();
+				 $("body").fadeIn(1000,function(){
+					  
+				 }); 
+				});
 		});
 		$( "#option2" ).click(function() {
+			$("body").fadeOut(2000,function(){
 					$('body').on('click',clickEvent);
 					mydata = $.parseJSON(chapter1op2);
 					decisionJson = $.parseJSON(choose2);
@@ -131,14 +140,27 @@ $('body').contextmenu(function(e) {
 						$('#option1').hide();
 						$('#option2').hide();
 						$('#option3').hide();
+						
+						$("body").click();
+						 $("body").fadeIn(1000,function(){
+							  
+						 }); 
+			});
 		});
 		$( "#option3" ).click(function() {
+			$("body").fadeOut(2000,function(){
 					$('body').on('click',clickEvent);
 					mydata = $.parseJSON(chapter1op3);
 					counter=-1;
 						$('#option1').remove();
 						$('#option2').remove();
 						$('#option3').remove();
+						
+						$("body").click();
+						 $("body").fadeIn(1000,function(){
+							  
+						 }); 
+			});
 						
 		});
     	}
@@ -148,5 +170,6 @@ $('body').contextmenu(function(e) {
 		doit();
 		$("body").on('click');
 	}
+	
 	
 });
