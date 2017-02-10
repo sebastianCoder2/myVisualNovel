@@ -22,7 +22,7 @@ $('body').contextmenu(function(e) {
   //counter = (counter - 2) % mydata.length;
 });
 
- $('body').on('click',clickEvent);
+ $('body').on('keypress click',clickEvent);
 
  function doit(){
 	 
@@ -58,7 +58,7 @@ $('body').contextmenu(function(e) {
                 clearInterval(textAdder);
                 placeHolderText=0;
             }else{
-            	$('body').click(function(){
+            	$('body').on('keypress click',function(){
 
             		clearInterval(textAdder);
             		placeHolderText=0;
@@ -73,7 +73,7 @@ $('body').contextmenu(function(e) {
                 clearInterval(nameAdder);
                 placeHolderName=0;
             }else{
-            	$('body').click(function(){
+            	$('body').on('keypress click',function(){
             		clearInterval(nameAdder);
             		placeHolderName=0;
             	});
@@ -82,7 +82,7 @@ $('body').contextmenu(function(e) {
 	 
     	if (counter==mydata.length-1){
 		
-			$("body").off('click', clickEvent);
+			$("body").off('keypress click', clickEvent);
     		var op1;
     		var op2;
     		var op3;
@@ -104,11 +104,11 @@ $('body').contextmenu(function(e) {
 				
             }
 			
-           $( "#option1" ).click(function() {
+           $( "#option1" ).on('keypress click',function(){
             $("body").fadeOut(2000,function(){
     	
     
-			$('body').on('click',clickEvent);
+			$('body').on('keypress click',clickEvent);
 			mydata = $.parseJSON(chapter1op1);
 			decisionJson = $.parseJSON(choose2);
 			counter=-1;
@@ -120,9 +120,9 @@ $('body').contextmenu(function(e) {
 				 }); 
 				});
 		});
-		$( "#option2" ).click(function() {
+		$( "#option2" ).on('keypress click',function(){
 			$("body").fadeOut(2000,function(){
-					$('body').on('click',clickEvent);
+					$('body').on('keypress click',clickEvent);
 					mydata = $.parseJSON(chapter1op2);
 					decisionJson = $.parseJSON(choose2);
 					counter=-1;
@@ -134,9 +134,9 @@ $('body').contextmenu(function(e) {
 						 }); 
 			});
 		});
-		$( "#option3" ).click(function() {
+		$( "#option3" ).on('keypress click',function(){
 			$("body").fadeOut(2000,function(){
-					$('body').on('click',clickEvent);
+					$('body').on('keypress click',clickEvent);
 					mydata = $.parseJSON(chapter1op3);
 					counter=-1;
 						$('#option1').remove();
