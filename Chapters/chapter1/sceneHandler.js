@@ -113,16 +113,9 @@ $('body').contextmenu(function(e) {
 			decisionJson = $.parseJSON(choose2);
 			counter=-1;
 			
-                $('#option1').empty();
-                $('#option2').empty();
-                $('#option3').empty();
-					
-				$('#option1').hide();
-                $('#option2').hide();
-                $('#option3').hide();
-				
+                hideOptions();
 				$("body").click();
-				 $("body").fadeIn(1000,function(){
+				$("body").fadeIn(1000,function(){
 					  
 				 }); 
 				});
@@ -133,16 +126,10 @@ $('body').contextmenu(function(e) {
 					mydata = $.parseJSON(chapter1op2);
 					decisionJson = $.parseJSON(choose2);
 					counter=-1;
-						$('#option1').empty();
-						$('#option2').empty();
-						$('#option3').empty();
-						
-						$('#option1').hide();
-						$('#option2').hide();
-						$('#option3').hide();
-						
+
+						hideOptions();
 						$("body").click();
-						 $("body").fadeIn(1000,function(){
+						$("body").fadeIn(1000,function(){
 							  
 						 }); 
 			});
@@ -170,6 +157,14 @@ $('body').contextmenu(function(e) {
 		doit();
 		$("body").on('click');
 	}
+    function hideOptions(){
+            $('#option1').empty();
+            $('#option2').empty();
+            $('#option3').empty();
+            $('#option1').hide();
+            $('#option2').hide();
+            $('#option3').hide();
+    }
 	
 	
 });
