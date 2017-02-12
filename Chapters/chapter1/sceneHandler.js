@@ -40,16 +40,11 @@ $('body').contextmenu(function(e) {
         console.log(counter);
 
          
-                    
-        var bg ="url(" + mydata[counter].bgimg + ")";
-        $("#main-screen-chapter1").css("background-image", bg);
-        console.log(mydata[counter].bgimg);
-                
-
-        var charImg = ""; 
-        charImg += '<li><img src= "' + mydata[counter].image + '"></li>';
-        $('#character').append(charImg);
-        console.log(mydata[counter].image);
+            getBackground();
+            getCharacter();
+            
+        
+        
         
 
         var textAdder = setInterval(function(){
@@ -164,6 +159,46 @@ $('body').contextmenu(function(e) {
             $('#option1').hide();
             $('#option2').hide();
             $('#option3').hide();
+    }
+
+    function getCharacter(){
+                
+                if(mydata[counter].image.length > 1){
+        if(mydata[counter].image == mydata[counter-1].image ){
+
+            var charImg = ""; 
+        charImg += '<li><img src= "' + mydata[counter].image + '"></li>';
+            $('#character').append(charImg);
+        }else{
+            $('#character').fadeOut(150,function(){
+                    var charImg = ""; 
+        charImg += '<li><img src= "' + mydata[counter].image + '"></li>';
+            $('#character').append(charImg);
+                    $('#character').fadeIn(150,function(){
+
+                    });
+            });
+        }
+        }
+    }
+    function getBackground(){
+                 if(mydata[counter].bgimg.length > 1){
+        if(mydata[counter].bgimg == mydata[counter-1].bgimg){
+
+        var bg ="url(" + mydata[counter].bgimg + ")";
+        $("#background").css("background-image", bg);
+        
+            }else{
+                $('#background').fadeOut(150,function(){
+ var bg ="url(" + mydata[counter].bgimg + ")";
+        $("#background").css("background-image", bg);
+         $('#background').fadeIn(150,function(){
+
+                    });
+    });
+            }
+        }
+        
     }
 	
 	

@@ -33,6 +33,19 @@ top: 50%;
 	background-size: cover;
 	overflow:hidden;
 }
+#background{
+	width: 1220px;
+    height: 750px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    background-size: cover;
+    overflow: hidden;
+}
 #textBox{
 	width: 90%;
 	height: 20%;
@@ -50,6 +63,7 @@ top: 50%;
 	border-radius: 40px;
 	-moz-border-radius: 40px;
 	-webkit-border-radius: 40px;
+	z-index: 10;
 }
 #text{
 	padding: 0em 2em 0em 2em;
@@ -106,6 +120,7 @@ td:hover{
     right: 0;
     left: 0;
     top: 50%;
+    z-index: 1;
 }
 #game-title{
 	color: black;
@@ -121,4 +136,8 @@ td:hover{
 }
 .mainMenuButton:hover{
 	box-shadow: 1px 1px 20px #888888;
+}
+#character{
+	position: absolute;
+	z-index: 2;
 }
