@@ -1,10 +1,6 @@
-counter = -1;
-
-		
-		var mydata = $.parseJSON(chapter1);
-		
+        counter = -1;
+        var mydata = $.parseJSON(chapter1);
 		var decisionJson = $.parseJSON(choose1);
-        
 		var allowclick = true;
 		var placeHolderText = 0;
 		var placeHolderName = 0;
@@ -12,7 +8,8 @@ counter = -1;
 
 $(document).ready(function() {
 
-	
+    
+//beim ersten laden faded szene rein	
     $("body").fadeIn(2000,function(){
     	
     });
@@ -21,9 +18,15 @@ $('body').contextmenu(function(e) {
     //e.preventDefault();
   //counter = (counter - 2) % mydata.length;
 });
-
+//doit wird aufgerufen mit click und keypress
  $('body').on('keypress click',clickEvent);
+$('#loadbutton').on('click',function(){
 
+                    mydata = $.parseJSON(chapter1);
+                    decisionJson = $.parseJSON(choose1);
+                    counter=mydata.length-1
+                    doit();
+                });
  function doit(){
 	 
         $('#clicktostart').hide();
@@ -31,13 +34,13 @@ $('body').contextmenu(function(e) {
  		$('#text').html('');
  		$('#personWhoTalk').html('');
  		$('#character').html('');
+        $("#background").css("background-image", "none");
         
         if (counter==mydata.length-1){
             counter = mydata.length-1
         }else{
         counter = (counter + 1) % mydata.length;
     }
-        console.log(counter);
 
          
             getBackground();
@@ -46,7 +49,7 @@ $('body').contextmenu(function(e) {
         
         
         
-
+//fügt gesprochenen Text ein
         var textAdder = setInterval(function(){
             document.getElementById("text").innerHTML += mydata[counter].text.charAt(placeHolderText);
             if (++placeHolderText == mydata[counter].text.length){
@@ -61,7 +64,7 @@ $('body').contextmenu(function(e) {
             }
     }, 1);
 
-
+//fügt namen des characters ein
         var nameAdder = setInterval(function(){
             document.getElementById("personWhoTalk").innerHTML += mydata[counter].name.charAt(placeHolderName);
             if (++placeHolderName == mydata[counter].name.length){
@@ -74,14 +77,18 @@ $('body').contextmenu(function(e) {
             	});
             }
         }, 1);
-	 
+//wenn am ende eines json array
     	if (counter==mydata.length-1){
-		
+            console.log(counter);
+    console.log(mydata);
+    console.log(decisionJson);
+
+	//click deaktivert	
 			$("body").off('keypress click', clickEvent);
     		var op1;
     		var op2;
     		var op3;
-
+    //optionen werden angezeigt
             for (var i = 0; i < decisionJson.length; i++) {
             	
                 op1 = decisionJson[i].option1;
@@ -96,62 +103,47 @@ $('body').contextmenu(function(e) {
                 $('#option2').show();
                 $('#option3').show();
 
+                
 				
             }
-			
            $( "#option1" ).on('keypress click',function(){
-            $("body").fadeOut(2000,function(){
-    	
-    
-			$('body').on('keypress click',clickEvent);
-			mydata = $.parseJSON(chapter1op1);
-			decisionJson = $.parseJSON(choose2);
-			counter=-1;
-			
-                hideOptions();
-				$("body").click();
-				$("body").fadeIn(1000,function(){
-					  
-				 }); 
-				});
-		});
-		$( "#option2" ).on('keypress click',function(){
-			$("body").fadeOut(2000,function(){
-					$('body').on('keypress click',clickEvent);
-					mydata = $.parseJSON(chapter1op2);
-					decisionJson = $.parseJSON(choose2);
-					counter=-1;
-
-						hideOptions();
-						$("body").click();
-						$("body").fadeIn(1000,function(){
-							  
-						 }); 
-			});
-		});
-		$( "#option3" ).on('keypress click',function(){
-			$("body").fadeOut(2000,function(){
+    			$('body').on('keypress click',clickEvent);
+    			mydata = $.parseJSON(chapter1op1);
+    			decisionJson = $.parseJSON(choose2);
+    			counter=-1;
+                hideOptions();	
+            });
+		
+            $( "#option2" ).on('keypress click',function(){
+				$('body').on('keypress click',clickEvent);
+				mydata = $.parseJSON(chapter1op2);
+				decisionJson = $.parseJSON(choose2);
+				counter=-1;
+                hideOptions();			
+            });
+//game Over option
+            $( "#option3" ).on('keypress click',function(){
+			     $("body").fadeOut(2000,function(){
 					$('body').on('keypress click',clickEvent);
 					mydata = $.parseJSON(chapter1op3);
 					counter=-1;
-						$('#option1').remove();
-						$('#option2').remove();
-						$('#option3').remove();
+					$('#option1').remove();
+					$('#option2').remove();
+					$('#option3').remove();
+					$("body").click();
+					$("body").fadeIn(1000,function(){}); 
+                });
 						
-						$("body").click();
-						 $("body").fadeIn(1000,function(){
-							  
-						 }); 
-			});
-						
-		});
+            });
     	}
 
     }
-	function clickEvent(){
+//wird grbraucht um clicken bei entscheidung zu deaktivieren und danach wieder zu aktivieren
+    function clickEvent(){
 		doit();
 		$("body").on('click');
 	}
+//versteckt und leert entscheidung nach dem click
     function hideOptions(){
             $('#option1').empty();
             $('#option2').empty();
@@ -160,46 +152,36 @@ $('body').contextmenu(function(e) {
             $('#option2').hide();
             $('#option3').hide();
     }
-
-    function getCharacter(){
-                
-                if(mydata[counter].image.length > 1){
-        if(mydata[counter].image == mydata[counter-1].image ){
-
-            var charImg = ""; 
-        charImg += '<li><img src= "' + mydata[counter].image + '"></li>';
-            $('#character').append(charImg);
-        }else{
-            $('#character').fadeOut(150,function(){
-                    var charImg = ""; 
-        charImg += '<li><img src= "' + mydata[counter].image + '"></li>';
-            $('#character').append(charImg);
-                    $('#character').fadeIn(150,function(){
-
-                    });
-            });
-        }
-        }
-    }
-    function getBackground(){
-                 if(mydata[counter].bgimg.length > 1){
-        if(mydata[counter].bgimg == mydata[counter-1].bgimg){
-
-        var bg ="url(" + mydata[counter].bgimg + ")";
-        $("#background").css("background-image", bg);
-        
+//holt sich character aus dem Json und setzt ein
+    function getCharacter(){        
+        if(mydata[counter].image.length > 1){
+            if(mydata[counter].image == mydata[counter-1].image ){
+                var charImg = ""; 
+                charImg += '<li><img src= "' + mydata[counter].image + '"></li>';
+                $('#character').append(charImg);
             }else{
-                $('#background').fadeOut(150,function(){
- var bg ="url(" + mydata[counter].bgimg + ")";
-        $("#background").css("background-image", bg);
-         $('#background').fadeIn(150,function(){
-
-                    });
-    });
+                $('#character').fadeOut(150,function(){
+                    var charImg = ""; 
+                    charImg += '<li><img src= "' + mydata[counter].image + '"></li>';
+                    $('#character').append(charImg);
+                    $('#character').fadeIn(150,function(){});
+                });
             }
         }
-        
+     }
+//holt background aus Json und setzt ein
+    function getBackground(){
+        if(mydata[counter].bgimg.length > 1){
+            if(mydata[counter].bgimg == mydata[counter-1].bgimg){
+            var bg ="url(" + mydata[counter].bgimg + ")";
+            $("#background").css("background-image", bg);
+        }else{
+            $('#background').fadeOut(150,function(){
+                var bg ="url(" + mydata[counter].bgimg + ")";
+                $("#background").css("background-image", bg);
+                $('#background').fadeIn(150,function(){});
+            });
+            }
+        }  
     }
-	
-	
 });
