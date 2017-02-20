@@ -1,10 +1,10 @@
         counter = -1;
         var mydata = $.parseJSON(chapter1);
 		var decisionJson = $.parseJSON(choose1);
+        
 		var allowclick = true;
 		var placeHolderText = 0;
 		var placeHolderName = 0;
-
 
 $(document).ready(function() {
 
@@ -20,13 +20,8 @@ $('body').contextmenu(function(e) {
 });
 //doit wird aufgerufen mit click und keypress
  $('body').on('keypress click',clickEvent);
-$('#loadbutton').on('click',function(){
 
-                    mydata = $.parseJSON(chapter1);
-                    decisionJson = $.parseJSON(choose1);
-                    counter=mydata.length-1
-                    doit();
-                });
+ 
  function doit(){
 	 
         $('#clicktostart').hide();
@@ -138,6 +133,23 @@ $('#loadbutton').on('click',function(){
     	}
 
     }
+    $('#savebutton').on('keypress click',function(){
+
+    var zwischenspeicher = mydata;
+     var decisionzwischenspeicher = decisionJson;               
+localStorage.setItem('gameStorage', JSON.stringify(zwischenspeicher));
+localStorage.setItem('gamedecisionStorage', JSON.stringify(decisionzwischenspeicher));
+alert("Save complete");
+});
+$('#loadbutton').on('keypress click',function(){
+                    
+                    var saveCh = $.parseJSON(localStorage.getItem('gameStorage'));
+                    var saveDj = $.parseJSON(localStorage.getItem('gamedecisionStorage'));
+                    mydata = saveCh;
+                    decisionJson = saveDj;
+                    counter=mydata.length-1
+                    doit();
+                });
 //wird grbraucht um clicken bei entscheidung zu deaktivieren und danach wieder zu aktivieren
     function clickEvent(){
 		doit();
