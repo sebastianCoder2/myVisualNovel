@@ -74,9 +74,6 @@ $('body').contextmenu(function(e) {
         }, 1);
 //wenn am ende eines json array
     	if (counter==mydata.length-1){
-            console.log(counter);
-    console.log(mydata);
-    console.log(decisionJson);
 
 	//click deaktivert	
 			$("body").off('keypress click', clickEvent);
@@ -98,8 +95,8 @@ $('body').contextmenu(function(e) {
                 $('#option2').show();
                 $('#option3').show();
 
-                
-				
+                $('#savebutton').show();
+				$('#savebutton').click(speichern);
             }
            $( "#option1" ).on('keypress click',function(){
     			$('body').on('keypress click',clickEvent);
@@ -133,28 +130,37 @@ $('body').contextmenu(function(e) {
     	}
 
     }
-    $('#savebutton').on('keypress click',function(){
+    
 
-    var zwischenspeicher = mydata;
-     var decisionzwischenspeicher = decisionJson;               
-localStorage.setItem('gameStorage', JSON.stringify(zwischenspeicher));
-localStorage.setItem('gamedecisionStorage', JSON.stringify(decisionzwischenspeicher));
-alert("Save complete");
-});
 $('#loadbutton').on('keypress click',function(){
-                    
+                    if(localStorage.getItem('gameStorage') == null){
+                        alert("There is no save data");
+                    }else{
+                        $('#option1').empty();
+            $('#option2').empty();
+            $('#option3').empty();
                     var saveCh = $.parseJSON(localStorage.getItem('gameStorage'));
                     var saveDj = $.parseJSON(localStorage.getItem('gamedecisionStorage'));
                     mydata = saveCh;
                     decisionJson = saveDj;
                     counter=mydata.length-1
                     doit();
+                }
                 });
 //wird grbraucht um clicken bei entscheidung zu deaktivieren und danach wieder zu aktivieren
     function clickEvent(){
 		doit();
 		$("body").on('click');
 	}
+    function speichern(){
+        var zwischenspeicher = mydata;
+     var decisionzwischenspeicher = decisionJson;               
+localStorage.setItem('gameStorage', JSON.stringify(zwischenspeicher));
+localStorage.setItem('gamedecisionStorage', JSON.stringify(decisionzwischenspeicher));
+alert("Save complete");
+$('#savebutton').hide();
+console.log(storage);
+    }
 //versteckt und leert entscheidung nach dem click
     function hideOptions(){
             $('#option1').empty();
@@ -163,6 +169,7 @@ $('#loadbutton').on('keypress click',function(){
             $('#option1').hide();
             $('#option2').hide();
             $('#option3').hide();
+            $('#savebutton').hide();
     }
 //holt sich character aus dem Json und setzt ein
     function getCharacter(){        

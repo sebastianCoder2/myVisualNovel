@@ -144,16 +144,35 @@ td:hover{
 #loadbutton{
 	z-index: 10;
     position: absolute;
-    top: 30%;
+    top: 3%;
     left: 0;
     right: 0;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+	color:black;
+	width: auto;
+    margin: 1em;
+    padding: 1em;
+}
+#loadbutton:hover{
+	background-color: rgba(0, 0, 0, 0.7);
+	color:white;
 }
 #savebutton{
 	z-index: 10;
     position: absolute;
-    top: 50%;
-    left: 0;
+    top: 3%;
+    left: 10%;
     right: 0;
     text-align: center;
+    display: none;
+    background-color: rgba(255, 255, 255, 0.7);
+	color:black;
+	width: auto;
+    margin: 1em;
+    padding: 1em;
+}
+#savebutton:hover{
+	background-color: rgba(0, 0, 0, 0.7);
+	color:white;
 }
