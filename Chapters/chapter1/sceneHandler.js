@@ -1,4 +1,4 @@
-        counter = -1;
+        var counter = -1;
         var mydata = $.parseJSON(chapter1);
 		var decisionJson = $.parseJSON(choose1);
         
@@ -30,14 +30,14 @@ $('body').contextmenu(function(e) {
  		$('#personWhoTalk').html('');
  		$('#character').html('');
         $("#background").css("background-image", "none");
-        
+        $('#loadbutton').click(laden);
         if (counter==mydata.length-1){
             counter = mydata.length-1
         }else{
         counter = (counter + 1) % mydata.length;
     }
 
-         
+         console.log(counter);
             getBackground();
             getCharacter();
             
@@ -104,6 +104,7 @@ $('body').contextmenu(function(e) {
     			decisionJson = $.parseJSON(choose2);
     			counter=-1;
                 hideOptions();	
+                
             });
 		
             $( "#option2" ).on('keypress click',function(){
@@ -131,35 +132,34 @@ $('body').contextmenu(function(e) {
 
     }
     
-
-$('#loadbutton').on('keypress click',function(){
-                    if(localStorage.getItem('gameStorage') == null){
-                        alert("There is no save data");
-                    }else{
-                        $('#option1').empty();
-            $('#option2').empty();
-            $('#option3').empty();
-                    var saveCh = $.parseJSON(localStorage.getItem('gameStorage'));
-                    var saveDj = $.parseJSON(localStorage.getItem('gamedecisionStorage'));
-                    mydata = saveCh;
-                    decisionJson = saveDj;
-                    counter=mydata.length-1
-                    doit();
-                }
-                });
 //wird grbraucht um clicken bei entscheidung zu deaktivieren und danach wieder zu aktivieren
     function clickEvent(){
 		doit();
 		$("body").on('click');
 	}
-    function speichern(){
-        var zwischenspeicher = mydata;
-     var decisionzwischenspeicher = decisionJson;               
-localStorage.setItem('gameStorage', JSON.stringify(zwischenspeicher));
-localStorage.setItem('gamedecisionStorage', JSON.stringify(decisionzwischenspeicher));
+
+function laden(){
+    if(localStorage.getItem('gameStorage') == null){
+                        alert("There is no save data");
+                    }else{
+            $('#option1').empty();
+            $('#option2').empty();
+            $('#option3').empty();
+                    mydata = null;
+                    decisionJson = null; 
+                    mydata = $.parseJSON(localStorage.getItem('gameStorage'));
+                    decisionJson = $.parseJSON(localStorage.getItem('gamedecisionStorage'));
+                    counter = mydata.length-1
+                    
+                }
+}
+
+    function speichern(){        
+    localStorage.clear();       
+localStorage.setItem('gameStorage', JSON.stringify(mydata));
+localStorage.setItem('gamedecisionStorage', JSON.stringify(decisionJson));
 alert("Save complete");
 $('#savebutton').hide();
-console.log(storage);
     }
 //versteckt und leert entscheidung nach dem click
     function hideOptions(){

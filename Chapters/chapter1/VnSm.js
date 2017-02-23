@@ -36,7 +36,7 @@ Demo = function() {
       onbeforeclear: function(event, from, to) { alert("START   EVENT: clear!", true);  },
 
       onoption1:        function(event, from, to) {
-      	
+      	console.log(fsm.current);
         //window.location.replace("chapter1Option1.html");
       },
       onpanic:       function(event, from, to) { alert("FINISH  EVENT: panic!");        },
