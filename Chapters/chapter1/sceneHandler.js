@@ -1,8 +1,8 @@
         var counter = -1;
         var mydata = $.parseJSON(chapter1);
 		var decisionJson = $.parseJSON(choose1);
-        
-		var allowclick = true;
+        var gameover = false
+		var allowclick = 0;
 		var placeHolderText = 0;
 		var placeHolderName = 0;
 
@@ -20,7 +20,6 @@ $('body').contextmenu(function(e) {
 });
 //doit wird aufgerufen mit click und keypress
  $('body').on('keypress click',clickEvent);
-
  
  function doit(){
 	 
@@ -29,12 +28,17 @@ $('body').contextmenu(function(e) {
  		$('#text').html('');
  		$('#personWhoTalk').html('');
  		$('#character').html('');
-        $("#background").css("background-image", "none");
+        $('#option1').empty();
+        $('#option2').empty();
+        $('#option3').empty();
+        $('#background').css("background-image", "none");
         $('#loadbutton').click(laden);
+
         if (counter==mydata.length-1){
             counter = mydata.length-1
         }else{
         counter = (counter + 1) % mydata.length;
+
     }
 
          console.log(counter);
@@ -76,13 +80,59 @@ $('body').contextmenu(function(e) {
     	if (counter==mydata.length-1){
 
 	//click deaktivert	
-			$("body").off('keypress click', clickEvent);
+			allowclick = 1;
     		var op1;
     		var op2;
     		var op3;
     //optionen werden angezeigt
-            for (var i = 0; i < decisionJson.length; i++) {
-            	
+            fillDecision();
+           $( "#option1" ).on('keypress click',function(){
+    			allowclick = 0;
+    			mydata = $.parseJSON(chapter1op1);
+    			decisionJson = $.parseJSON(choose2);
+    			counter=-1;
+                hideOptions();	
+                
+                
+            });
+		
+            $( "#option2" ).on('keypress click',function(){
+				allowclick = 0;
+				mydata = $.parseJSON(chapter1op2);
+				decisionJson = $.parseJSON(choose2);
+				counter=-1;
+                hideOptions();			
+            });
+//game Over option
+            $( "#option3" ).on('keypress click',function(){
+					allowclick = 0;
+					mydata = $.parseJSON(chapter1op3);
+					counter=-1;
+					hideOptions();
+					gameover = true;
+					
+                	
+            });
+    	}
+
+    }
+    
+//wird grbraucht um clicken bei entscheidung zu deaktivieren und danach wieder zu aktivieren
+    function clickEvent(){
+        if(allowclick == 0){
+		doit();
+		$("body").on('click');
+    }else{
+        
+    }
+	}
+function fillDecision(){
+    if(gameover == true){
+        gameover = false;
+    }else{
+        
+    for (var i = 0; i < decisionJson.length; i++) {
+                
                 op1 = decisionJson[i].option1;
                 op2 = decisionJson[i].option2;
                 op3 = decisionJson[i].option3;
@@ -94,72 +144,36 @@ $('body').contextmenu(function(e) {
                 $('#option1').show();
                 $('#option2').show();
                 $('#option3').show();
-
                 $('#savebutton').show();
-				$('#savebutton').click(speichern);
+                $('#savebutton').click(speichern);
             }
-           $( "#option1" ).on('keypress click',function(){
-    			$('body').on('keypress click',clickEvent);
-    			mydata = $.parseJSON(chapter1op1);
-    			decisionJson = $.parseJSON(choose2);
-    			counter=-1;
-                hideOptions();	
-                
-            });
-		
-            $( "#option2" ).on('keypress click',function(){
-				$('body').on('keypress click',clickEvent);
-				mydata = $.parseJSON(chapter1op2);
-				decisionJson = $.parseJSON(choose2);
-				counter=-1;
-                hideOptions();			
-            });
-//game Over option
-            $( "#option3" ).on('keypress click',function(){
-			     $("body").fadeOut(2000,function(){
-					$('body').on('keypress click',clickEvent);
-					mydata = $.parseJSON(chapter1op3);
-					counter=-1;
-					$('#option1').remove();
-					$('#option2').remove();
-					$('#option3').remove();
-					$("body").click();
-					$("body").fadeIn(1000,function(){}); 
-                });
-						
-            });
-    	}
-
-    }
-    
-//wird grbraucht um clicken bei entscheidung zu deaktivieren und danach wieder zu aktivieren
-    function clickEvent(){
-		doit();
-		$("body").on('click');
-	}
-
+        }
+}
 function laden(){
     if(localStorage.getItem('gameStorage') == null){
                         alert("There is no save data");
                     }else{
-            $('#option1').empty();
-            $('#option2').empty();
-            $('#option3').empty();
-                    mydata = null;
-                    decisionJson = null; 
+           
+                    allowclick = 0;
                     mydata = $.parseJSON(localStorage.getItem('gameStorage'));
                     decisionJson = $.parseJSON(localStorage.getItem('gamedecisionStorage'));
                     counter = mydata.length-1
                     
+
+                    
+                    
                 }
 }
 
-    function speichern(){        
-    localStorage.clear();       
+    function speichern(){  
+        alert("Save complete");
+    allowclick = 0;     
+    window.localStorage.clear();      
 localStorage.setItem('gameStorage', JSON.stringify(mydata));
 localStorage.setItem('gamedecisionStorage', JSON.stringify(decisionJson));
-alert("Save complete");
+
 $('#savebutton').hide();
+
     }
 //versteckt und leert entscheidung nach dem click
     function hideOptions(){
