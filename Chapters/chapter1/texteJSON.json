@@ -23,6 +23,9 @@
 choose1 = '[{"option1":"Come down, Mum. I will apply for an apprenticeship.","option2":"Everything is right, Mum. I will go study!","option3":"You are just scared!"}]';
 
 chapter1op1 = '[\
+{"name" : "Mom","text":"Oh...Okay...I am glad to hear that, Jeff.","image":"./images/char2.png","bgimg":"./images/bgimg/background1.jpg"},\
+{"name" : "Mom","text":"I think you will find a good apprenticeship! It is time to eat soon!","image":"./images/char2.png","bgimg":"./images/bgimg/background1.jpg"},\
+{"name" : " ","text":"She left his room.","image":" ","bgimg":"./images/bgimg/background1.jpg"},\
 {"name" : " ","text":"The next day","image":" ","bgimg":" "},\
 {"name" : " ","text":"Jeff decided to apply to an apprenticeship. He thinks about his strengths and weaknesses. One of his absouletly weakness is that he does not like to work outside. He loves computers and he wants to do something with that. Another weakness is that he has problems to get in touch with other people. He does not like Small Talk, courtesies and all this stuff that is need to get friends or even to have a chance to start a relationship.","image":" ","bgimg":" "},\
 {"name" : " ","text":"Jeff is a loner. He has always been. And he will always stay in that way. But if he wants to live between all this people with all this technical progress (that he finds so appealing and fascinating). With all this advantages and the disadvantages. If he wants to be a part of it, he has to find his place.","image":" ","bgimg":" "},\
@@ -41,6 +44,9 @@ chapter1op1 = '[\
 {"name" : " ","text":"Jeff frowns. He has to find an apprenticeship... But a little break could do well...He has to decide now.","image":" ","bgimg":" "}]';
 
 chapter1op2 = '[\
+{"name" : "Mom","text":"Oh...Okay...I am glad to hear that, Jeff.","image":"./images/char2.png","bgimg":"./images/bgimg/background1.jpg"},\
+{"name" : "Mom","text":"I hope you will find something good! It is time to eat soon!","image":"./images/char2.png","bgimg":"./images/bgimg/background1.jpg"},\
+{"name" : " ","text":"She left his room.","image":" ","bgimg":"./images/bgimg/background1.jpg"},\
 {"name" : " ","text":"The next day","image":" ","bgimg":" "},\
 {"name" : " ","text":"Jeff decided to study. He thinks about his strengths and weaknesses. One of his absouletly weakness is that he does not like to work outside. He loves computers and he wants to do something with that. Another weakness is that he has problems to get in touch with other people. He does not like Small Talk, courtesies and all this stuff that is need to get friends or even to have a chance to start a relationship.","image":" ","bgimg":" "},\
 {"name" : " ","text":"Jeff is a loner. He has always been. And he will always stay in that way. But if he wants to live between all this people with all this technical progress (that he finds so appealing and fascinating). With all this advantages and the disadvantages. If he wants to be a part of it, he has to find his place.","image":" ","bgimg":" "},\

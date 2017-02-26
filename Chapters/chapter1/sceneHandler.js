@@ -149,21 +149,16 @@ function fillDecision(){
             }
         }
 }
-function laden(){
-    if(localStorage.getItem('gameStorage') == null){
+    function laden(){
+        if(localStorage.getItem('gameStorage') == null){
                         alert("There is no save data");
-                    }else{
-           
-                    allowclick = 0;
-                    mydata = $.parseJSON(localStorage.getItem('gameStorage'));
-                    decisionJson = $.parseJSON(localStorage.getItem('gamedecisionStorage'));
-                    counter = mydata.length-1
-                    
-
-                    
-                    
-                }
-}
+        }else{
+            allowclick = 0;
+            mydata = $.parseJSON(localStorage.getItem('gameStorage'));
+            decisionJson = $.parseJSON(localStorage.getItem('gamedecisionStorage'));
+            counter = mydata.length-1
+        }
+    }
 
     function speichern(){  
         alert("Save complete");
@@ -186,7 +181,8 @@ $('#savebutton').hide();
             $('#savebutton').hide();
     }
 //holt sich character aus dem Json und setzt ein
-    function getCharacter(){        
+    function getCharacter(){       
+    if (mydata[counter-1] != null){ 
         if(mydata[counter].image.length > 1){
             if(mydata[counter].image == mydata[counter-1].image ){
                 var charImg = ""; 
@@ -201,20 +197,31 @@ $('#savebutton').hide();
                 });
             }
         }
+        }else{
+            var charImg = ""; 
+                charImg += '<li><img src= "' + mydata[counter].image + '"></li>';
+                $('#character').append(charImg);
+        }
      }
 //holt background aus Json und setzt ein
     function getBackground(){
+        if (mydata[counter-1] != null){
+        console.log("bg"+mydata[counter-1].bgimg);
         if(mydata[counter].bgimg.length > 1){
             if(mydata[counter].bgimg == mydata[counter-1].bgimg){
-            var bg ="url(" + mydata[counter].bgimg + ")";
-            $("#background").css("background-image", bg);
-        }else{
-            $('#background').fadeOut(150,function(){
+                var bg ="url(" + mydata[counter].bgimg + ")";
+                $("#background").css("background-image", bg);
+            }else{
+                $('#background').fadeOut(150,function(){
                 var bg ="url(" + mydata[counter].bgimg + ")";
                 $("#background").css("background-image", bg);
                 $('#background').fadeIn(150,function(){});
-            });
+                });
             }
-        }  
+        }
+        }else{
+            var bg ="url(" + mydata[counter].bgimg + ")";
+                $("#background").css("background-image", bg);
+        }
     }
 });
