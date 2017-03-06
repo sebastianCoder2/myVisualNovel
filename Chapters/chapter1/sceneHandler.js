@@ -5,17 +5,17 @@
 		var allowclick = 0;
 		var placeHolderText = 0;
 		var placeHolderName = 0;
-
+        var musicCounter = 0;
+        var src = $.parseJSON(music);
 $(document).ready(function() {
-
-    var src = [];
-    src = $.parseJSON(music);
-
-    var audio = document.getElementById('playme');
-    audio.setAttribute("src", src[0].song1);
-    
-    
-    
+audioplay();
+function audioplay(){
+        
+        
+        var audio = document.getElementById('playme');
+        audio.setAttribute("src", src[musicCounter].song1);
+        console.log(audio); 
+        }
    
 //beim ersten laden faded szene rein	
     $("body").fadeIn(2000,function(){
@@ -30,7 +30,7 @@ $('body').contextmenu(function(e) {
  $('body').on('keypress click',clickEvent);
  
  function doit(){
-	 console.log(audio);
+    
         $('#clicktostart').hide();
         $('#textBox').show();
  		$('#text').html('');
@@ -49,7 +49,15 @@ $('body').contextmenu(function(e) {
 
     }
 
+    
+
+    if (mydata[counter].skip == true){
+        musicCounter = (musicCounter+1) % src.length;;
+        audioplay();
+    }
+
          console.log(counter);
+
             getBackground();
             getCharacter();
             

@@ -5,7 +5,7 @@ chapter1 = '[\
 	{"name" : " ","text":"Afterwards another documentation is running. About the secrets of space, with Stephen Hawking. He is slowly falling asleep again... A terrible sound makes him wake up abruptly! His smartphone vibrates under the pillow. His hand is looking for it hastily. Jeffs mother is calling. He suddenly remember that he has forgot to empty the dishwasher. In Addition he forgot that he owe her money. 30 Euro. He get goosebumps. He picks up the phone answer in a trembling voice:","image":" ","bgimg":" "},\
 	{"name" : "Jeff","text":"Hello, Mum.","image":"./images/char1.png","bgimg":"./images/bgimg/background1.jpg","skip": true},\
 	{"name" : "Mom","text":"Good morning, Jeff!","image":"./images/char2.png","bgimg":"./images/bgimg/background1.jpg"},\
-	{"name" : " ","text":"Her voice sounds cold. Jeff knows her kind to speak. This could not be a good thing.","image":" ","bgimg":"./images/bgimg/background1.jpg"},\
+	{"name" : " ","text":"Her voice sounds cold. Jeff knows her kind to speak. This could not be a good thing.","image":" ","bgimg":"./images/bgimg/background1.jpg","skip": true},\
 	{"name" : "Mom","text":"You havent done the dishwasher! And why did you forgot the 30€?!","image":"./images/char2.png","bgimg":"./images/bgimg/background1.jpg"},\
 	{"name" : "Jeff","text":"I will... I mean that...","image":"./images/char1.png","bgimg":"./images/bgimg/background1.jpg"},\
 	{"name" : "Mom","text":"No! It is enough! I dont want to hear your excuses anymore! I want that you begin an apprenticeship. Or you can start to study, too! But I want that you DO SOMETHING with your life!","image":"./images/char2.png","bgimg":"./images/bgimg/background1.jpg"},\
