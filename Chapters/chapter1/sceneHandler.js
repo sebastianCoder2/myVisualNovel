@@ -8,7 +8,15 @@
 
 $(document).ready(function() {
 
+    var src = [];
+    src = $.parseJSON(music);
+
+    var audio = document.getElementById('playme');
+    audio.setAttribute("src", src[0].song1);
     
+    
+    
+   
 //beim ersten laden faded szene rein	
     $("body").fadeIn(2000,function(){
     	
@@ -22,7 +30,7 @@ $('body').contextmenu(function(e) {
  $('body').on('keypress click',clickEvent);
  
  function doit(){
-	 
+	 console.log(audio);
         $('#clicktostart').hide();
         $('#textBox').show();
  		$('#text').html('');
