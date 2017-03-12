@@ -1,5 +1,5 @@
         var counter = -1;
-        var mydata = $.parseJSON(chapter1);
+        var mydata = $.parseJSON(chapter1op0);
 		var decisionJson = $.parseJSON(choose1);
         var gameover = false
 		var allowclick = 0;
@@ -94,7 +94,6 @@ $('body').contextmenu(function(e) {
         }, 1);
 //wenn am ende eines json array
     	if (counter==mydata.length-1){
-
 	//click deaktivert	
 			allowclick = 1;
     		var op1;
@@ -104,8 +103,13 @@ $('body').contextmenu(function(e) {
             fillDecision();
            $( "#option1" ).on('keypress click',function(){
     			allowclick = 0;
-    			mydata = $.parseJSON(chapter1op1);
-    			decisionJson = $.parseJSON(choose2);
+                if($.inArray( "chapter1op0", mydata )){
+                    mydata = $.parseJSON(chapter1op1);
+                    decisionJson = $.parseJSON(choose2);
+                }else if($.inArray( "chapter1op1", mydata )){
+                    mydata = $.parseJSON(chapter2op1);
+                    decisionJson = $.parseJSON(choose3);
+                }
     			counter=-1;
                 hideOptions();	
                 
@@ -114,15 +118,24 @@ $('body').contextmenu(function(e) {
 		
             $( "#option2" ).on('keypress click',function(){
 				allowclick = 0;
-				mydata = $.parseJSON(chapter1op2);
-				decisionJson = $.parseJSON(choose2);
+                if($.inArray( "chapter1op0", mydata )){
+				    mydata = $.parseJSON(chapter1op2);
+				    decisionJson = $.parseJSON(choose2);
+                }else if($.inArray( "chapter1op2", mydata )){
+                    mydata = $.parseJSON(chapter2op2);
+                    decisionJson = $.parseJSON(choose3);
+                }
 				counter=-1;
                 hideOptions();			
             });
 //game Over option
             $( "#option3" ).on('keypress click',function(){
 					allowclick = 0;
+                if($.inArray( "chapter1op0", mydata )){
 					mydata = $.parseJSON(chapter1op3);
+                }else if($.inArray( "chapter1op3", mydata )){
+                    mydata = $.parseJSON(chapter2op3);
+                }
 					counter=-1;
 					hideOptions();
 					gameover = true;

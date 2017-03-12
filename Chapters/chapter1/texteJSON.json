@@ -1,11 +1,11 @@
 ﻿music = '[{"song1":"../../music/Andrew_Odd_-_03_-_Through_the_Veil.mp3"},{"song1":"../../music/David_Mumford_-_16_-_Mockingbird_Instrumental.mp3"}]';
 
-chapter1 = '[\
-	{"name" : " ","text":"The first sunrays light up the dark sky. They let the clouds pink shining and let the earth warm up. The world awakes. And as a part of it, Jeff wakes up, too. The first thing he see, is the half eaten pizza from the eve. Right next to his bed, on the floor. Beside an open chip pack. Taste like Currywurst. Jeff loves Currywurst. Then he becomes aware that the TV is still running. N24. A documentation about \\"Das DritteReich\\". Two Pictures of Hitler, the war and all this stuff flicker over the screen.","image":" ","bgimg":" "},\
+chapter1op0 = '[\
+	{"arrayName":"chapter1op0","name" : " ","text":"The first sunrays light up the dark sky. They let the clouds pink shining and let the earth warm up. The world awakes. And as a part of it, Jeff wakes up, too. The first thing he see, is the half eaten pizza from the eve. Right next to his bed, on the floor. Beside an open chip pack. Taste like Currywurst. Jeff loves Currywurst. Then he becomes aware that the TV is still running. N24. A documentation about \\"Das DritteReich\\". Two Pictures of Hitler, the war and all this stuff flicker over the screen.","image":" ","bgimg":" "},\
 	{"name" : " ","text":"Afterwards another documentation is running. About the secrets of space, with Stephen Hawking. He is slowly falling asleep again... A terrible sound makes him wake up abruptly! His smartphone vibrates under the pillow. His hand is looking for it hastily. Jeffs mother is calling. He suddenly remember that he has forgot to empty the dishwasher. In Addition he forgot that he owe her money. 30 Euro. He get goosebumps. He picks up the phone answer in a trembling voice:","image":" ","bgimg":" "},\
 	{"name" : "Jeff","text":"Hello, Mum.","image":"./images/char1.png","bgimg":"./images/bgimg/background1.jpg","skip": true},\
 	{"name" : "Mom","text":"Good morning, Jeff!","image":"./images/char2.png","bgimg":"./images/bgimg/background1.jpg"},\
-	{"name" : " ","text":"Her voice sounds cold. Jeff knows her kind to speak. This could not be a good thing.","image":" ","bgimg":"./images/bgimg/background1.jpg","skip": true},\
+	{"name" : " ","text":"Her voice sounds cold. Jeff knows her kind to speak. This could not be a good thing.","image":" ","bgimg":"./images/bgimg/background1.jpg"},\
 	{"name" : "Mom","text":"You havent done the dishwasher! And why did you forgot the 30€?!","image":"./images/char2.png","bgimg":"./images/bgimg/background1.jpg"},\
 	{"name" : "Jeff","text":"I will... I mean that...","image":"./images/char1.png","bgimg":"./images/bgimg/background1.jpg"},\
 	{"name" : "Mom","text":"No! It is enough! I dont want to hear your excuses anymore! I want that you begin an apprenticeship. Or you can start to study, too! But I want that you DO SOMETHING with your life!","image":"./images/char2.png","bgimg":"./images/bgimg/background1.jpg"},\
@@ -24,7 +24,7 @@ chapter1 = '[\
 choose1 = '[{"option1":"Come down, Mum. I will apply for an apprenticeship.","option2":"Everything is right, Mum. I will go study!","option3":"You are just scared!"}]';
 
 chapter1op1 = '[\
-{"name" : "Mom","text":"Oh...Okay...I am glad to hear that, Jeff.","image":"./images/char2.png","bgimg":"./images/bgimg/background1.jpg"},\
+{"arrayName":"chapter1op1","name" : "Mom","text":"Oh...Okay...I am glad to hear that, Jeff.","image":"./images/char2.png","bgimg":"./images/bgimg/background1.jpg"},\
 {"name" : "Mom","text":"I think you will find a good apprenticeship! It is time to eat soon!","image":"./images/char2.png","bgimg":"./images/bgimg/background1.jpg"},\
 {"name" : " ","text":"She left his room.","image":" ","bgimg":"./images/bgimg/background1.jpg"},\
 {"name" : " ","text":"The next day","image":" ","bgimg":" "},\
@@ -45,7 +45,7 @@ chapter1op1 = '[\
 {"name" : " ","text":"Jeff frowns. He has to find an apprenticeship... But a little break could do well...He has to decide now.","image":" ","bgimg":" "}]';
 
 chapter1op2 = '[\
-{"name" : "Mom","text":"Oh...Okay...I am glad to hear that, Jeff.","image":"./images/char2.png","bgimg":"./images/bgimg/background1.jpg"},\
+{"arrayName":"chapter1op2","name" : "Mom","text":"Oh...Okay...I am glad to hear that, Jeff.","image":"./images/char2.png","bgimg":"./images/bgimg/background1.jpg"},\
 {"name" : "Mom","text":"I hope you will find something good! It is time to eat soon!","image":"./images/char2.png","bgimg":"./images/bgimg/background1.jpg"},\
 {"name" : " ","text":"She left his room.","image":" ","bgimg":"./images/bgimg/background1.jpg"},\
 {"name" : " ","text":"The next day","image":" ","bgimg":" "},\
@@ -66,7 +66,7 @@ chapter1op2 = '[\
 {"name" : " ","text":"Jeff frowns. He has to find an apprenticeship... But a little break could do well...He has to decide now.","image":" ","bgimg":" "}]';
 
 chapter1op3 = '[\
-{"name" : " ","text":"10 Minutes later","image":" ","bgimg":" "},\
+{"arrayName":"chapter1op3","name" : " ","text":"10 Minutes later","image":" ","bgimg":" "},\
 {"name" : " ","text":"Jeff was kicked out from the house by his mom.","image":" ","bgimg":" "},\
 {"name" : " ","text":"He has made the wrong decision.","image":" ","bgimg":" "},\
 {"name" : " ","text":"He is destitute and he has no home anymore.","image":" ","bgimg":" "},\
@@ -74,3 +74,9 @@ chapter1op3 = '[\
 {"name" : " ","text":"Game Over","image":" ","bgimg":"./images/bgimg/gameover.jpg"}]'
 
 choose2 = '[{"option1":"Go and meet Marco.","option2":"Meet Marco later and continue the search for a company.","option3":"Tell Marco, that you do not have time for him anymore. There are now more important things inyour life then friendship."}]';
+
+chapter2op1 = '[]';
+chapter2op2 = '[]';
+chapter2op3 = '[]';
+
+choose3 = '[]';
