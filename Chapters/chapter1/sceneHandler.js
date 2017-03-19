@@ -6,14 +6,15 @@
 		var placeHolderText = 0;
 		var placeHolderName = 0;
         var musicCounter = 0;
-        var src = $.parseJSON(music);
+        var musicSrc = $.parseJSON(music);
+
 $(document).ready(function() {
 audioplay();
 function audioplay(){
         
         
         var audio = document.getElementById('playme');
-        audio.setAttribute("src", src[musicCounter].song1);
+        audio.setAttribute("src", musicSrc[musicCounter].song1);
         console.log(audio); 
         }
    
@@ -52,7 +53,7 @@ $('body').contextmenu(function(e) {
     
 
     if (mydata[counter].skip == true){
-        musicCounter = (musicCounter+1) % src.length;;
+        musicCounter = (musicCounter+1) % musicSrc.length;;
         audioplay();
     }
 
@@ -94,6 +95,9 @@ $('body').contextmenu(function(e) {
         }, 1);
 //wenn am ende eines json array
     	if (counter==mydata.length-1){
+            console.log("test + "+mydata[0].arrayName);
+            var test = ($.inArray( "Jeff", mydata[0] ));
+            console.log("inarry +"+test);
 	//click deaktivert	
 			allowclick = 1;
     		var op1;
@@ -101,47 +105,62 @@ $('body').contextmenu(function(e) {
     		var op3;
     //optionen werden angezeigt
             fillDecision();
+            
+
+        if(mydata[0].arrayName === "chapter1op0"){
            $( "#option1" ).on('keypress click',function(){
     			allowclick = 0;
-                if($.inArray( "chapter1op0", mydata )){
+                
                     mydata = $.parseJSON(chapter1op1);
                     decisionJson = $.parseJSON(choose2);
-                }else if($.inArray( "chapter1op1", mydata )){
-                    mydata = $.parseJSON(chapter2op1);
-                    decisionJson = $.parseJSON(choose3);
-                }
+                
     			counter=-1;
                 hideOptions();	
                 
                 
             });
-		
-            $( "#option2" ).on('keypress click',function(){
-				allowclick = 0;
-                if($.inArray( "chapter1op0", mydata )){
-				    mydata = $.parseJSON(chapter1op2);
-				    decisionJson = $.parseJSON(choose2);
-                }else if($.inArray( "chapter1op2", mydata )){
-                    mydata = $.parseJSON(chapter2op2);
+           $( "#option2" ).on('keypress click',function(){
+            allowclick = 0;
+                mydata = $.parseJSON(chapter1op2);
+                    decisionJson = $.parseJSON(choose2);
+                    counter=-1;
+                hideOptions();
+           });
+//game over
+           $( "#option3" ).on('keypress click',function(){
+            allowclick = 0;
+                mydata = $.parseJSON(chapter1op3);
+                counter=-1;
+                    hideOptions();
+                    gameover = true;
+           });
+		}else if (mydata[0].arrayName === "chapter1op1" || mydata[0].arrayName === "chapter1op2"){
+            $( "#option1" ).on('keypress click',function(){
+                allowclick = 0;
+                
+                    mydata = $.parseJSON(chapter2op1);
                     decisionJson = $.parseJSON(choose3);
-                }
-				counter=-1;
-                hideOptions();			
+                
+                counter=-1;
+                hideOptions(); 
             });
-//game Over option
+            $( "#option2" ).on('keypress click',function(){
+            allowclick = 0;
+                mydata = $.parseJSON(chapter2op2);
+                    decisionJson = $.parseJSON(choose3);
+                    counter=-1;
+                hideOptions();
+           });
+//game over
             $( "#option3" ).on('keypress click',function(){
-					allowclick = 0;
-                if($.inArray( "chapter1op0", mydata )){
-					mydata = $.parseJSON(chapter1op3);
-                }else if($.inArray( "chapter1op3", mydata )){
-                    mydata = $.parseJSON(chapter2op3);
-                }
-					counter=-1;
-					hideOptions();
-					gameover = true;
-					
-                	
-            });
+            allowclick = 0;
+                mydata = $.parseJSON(chapter2op3);
+                counter=-1;
+                    hideOptions();
+                    gameover = true;
+           });
+        }
+         
     	}
 
     }
@@ -234,6 +253,7 @@ $('#savebutton').hide();
      }
 //holt background aus Json und setzt ein
     function getBackground(){
+        console.log("test + "+mydata[0].arrayName);
         if (mydata[counter-1] != null){
         console.log("bg"+mydata[counter-1].bgimg);
         if(mydata[counter].bgimg.length > 1){
