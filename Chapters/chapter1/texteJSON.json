@@ -89,7 +89,7 @@ chapter2op2 = '[\
 chapter2op3 = '[\
 {"arrayName":"chapter2op3","name" : " ","text":"Marco gets really angry. He does not understand Jeff.","image":" ","bgimg":" "},\
 {"name" : "Marco","text":"So go and do your thing, dumbass! I am done!","image":"./images/char5.png","bgimg":" "},\
-{"name" : " ","text":"Jeffs only friend will never talk with him again. And Jeff will never be happy again.","image":"./images/char3.png","bgimg":" "},\
+{"name" : " ","text":"Jeffs only friend will never talk with him again. And Jeff will never be happy again.","image":" ","bgimg":" "},\
 {"name" : " ","text":"Game Over","image":" ","bgimg":"./images/bgimg/gameover.jpg"}]'
 
 choose3 = '[]';

@@ -138,6 +138,7 @@ td:hover{
 #character{
 	position: absolute;
 	z-index: 2;
+	bottom: 0;
 }
 #loadbutton{
 	z-index: 10;
