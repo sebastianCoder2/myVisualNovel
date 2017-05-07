@@ -1,0 +1,13 @@
+background1: https://pixabay.com/en/computer-multimedia-sound-studio-1209104/
+background2: https://pixabay.com/en/render-3d-design-office-open-space-2001817/
+background3: https://pixabay.com/en/apple-blur-book-boss-brand-1853259/
+background4: https://pixabay.com/en/classroom-school-education-learning-2093746/
+background5: https://pixabay.com/en/apartment-room-house-2094666/
+background6: https://pixabay.com/en/desk-office-room-laptop-hp-699095/
+background7: https://pixabay.com/en/christmas-snow-chairs-window-2243211/
+background8: https://pixabay.com/en/books-library-alphabet-reading-2253569/
+background9: https://pixabay.com/en/dinner-table-restaurant-dining-444434/
+game over: https://pixabay.com/en/blue-sky-cloud-clouds-1278829/
+ending1: https://pixabay.com/en/underpass-underbridge-passage-950256/
+ending2: https://pixabay.com/en/sunset-sea-abendstimmung-sunset-sea-2022092/
+ending3: https://pixabay.com/en/work-workaholic-writer-programmer-1627703/

@@ -1,73 +1,73 @@
-﻿music = '[{"song1":"../../music/Andrew_Odd_-_03_-_Through_the_Veil.mp3"},{"song1":"../../music/David_Mumford_-_16_-_Mockingbird_Instrumental.mp3"}]';
+﻿music = '[{"song":"../../music/Andrew_Odd_-_03_-_Through_the_Veil.mp3"},{"song":"../../music/David_Mumford_-_16_-_Mockingbird_Instrumental.mp3"},{"song":"../../music/Paolo_Pavan_-_02_-_Pablitos_Way.mp3"},{"song":"../../music/rui_-_10_-_Answers_to_unasked_questions.mp3"},{"song":"../../music/Vexed_to_Nightmare_-_09_-_Broken_Ukulele.mp3"},{"song":"../../music/Forget_the_Whale_10Days_INSTRUMENTAL.mp3"}]';
 
 chapter1op0 = '[\
-	{"arrayName":"chapter1op0","name" : " ","text":"The first sunrays light up the dark sky. They let the clouds pink shining and let the earth warm up. The world awakes. And as a part of it, Jeff wakes up, too. The first thing he see, is the half eaten pizza from the eve. Right next to his bed, on the floor. Beside an open chip pack. Taste like Currywurst. Jeff loves Currywurst. Then he becomes aware that the TV is still running. N24. A documentation about \\"Das DritteReich\\". Two Pictures of Hitler, the war and all this stuff flicker over the screen.","image":" ","bgimg":" "},\
-	{"name" : " ","text":"Afterwards another documentation is running. About the secrets of space, with Stephen Hawking. He is slowly falling asleep again... A terrible sound makes him wake up abruptly! His smartphone vibrates under the pillow. His hand is looking for it hastily. Jeffs mother is calling. He suddenly remember that he has forgot to empty the dishwasher. In Addition he forgot that he owe her money. 30 Euro. He get goosebumps. He picks up the phone answer in a trembling voice:","image":" ","bgimg":" "},\
-	{"name" : "Jeff","text":"Hello, Mum.","image":"./images/char1.png","bgimg":"./images/bgimg/background1.jpg","skip": true},\
-	{"name" : "Mom","text":"Good morning, Jeff!","image":"./images/char2.png","bgimg":"./images/bgimg/background1.jpg"},\
-	{"name" : " ","text":"Her voice sounds cold. Jeff knows her kind to speak. This could not be a good thing.","image":" ","bgimg":"./images/bgimg/background1.jpg"},\
+	{"arrayName":"chapter1op0","name" : " ","text":"The first sunrays light up the dark sky. They let the clouds pink shining and let the earth warm up. The world awakes. And as a part of it, Thommy wakes up, too. The first thing he see, is the half eaten pizza from the eve. Right next to his bed, on the floor. Beside an open chip pack. Taste like Currywurst. Thommy loves Currywurst. Then he becomes aware that the TV is still running. N24. A documentation about \\"Das DritteReich\\". Two Pictures of Hitler, the war and all this stuff flicker over the screen.","image":" ","bgimg":" "},\
+	{"name" : " ","text":"Afterwards another documentation is running. About the secrets of space, with Stephen Hawking. He is slowly falling asleep again... A terrible sound makes him wake up abruptly! His smartphone vibrates under the pillow. His hand is looking for it hastily. Thommys mother is calling. He suddenly remember that he has forgot to empty the dishwasher. In Addition he forgot that he owe her money. 30 Euro. He get goosebumps. He picks up the phone answer in a trembling voice:","image":" ","bgimg":" "},\
+	{"name" : "Thommy","text":"Hello, Mum.","image":"./images/char1.png","bgimg":"./images/bgimg/background1.jpg","skip": true},\
+	{"name" : "Mom","text":"Good morning, Thommy!","image":"./images/char2.png","bgimg":"./images/bgimg/background1.jpg"},\
+	{"name" : " ","text":"Her voice sounds cold. Thommy knows her kind to speak. This could not be a good thing.","image":" ","bgimg":"./images/bgimg/background1.jpg"},\
 	{"name" : "Mom","text":"You havent done the dishwasher! And why did you forgot the 30€?!","image":"./images/char2.png","bgimg":"./images/bgimg/background1.jpg"},\
-	{"name" : "Jeff","text":"I will... I mean that...","image":"./images/char1.png","bgimg":"./images/bgimg/background1.jpg"},\
+	{"name" : "Thommy","text":"I will... I mean that...","image":"./images/char1.png","bgimg":"./images/bgimg/background1.jpg"},\
 	{"name" : "Mom","text":"No! It is enough! I dont want to hear your excuses anymore! I want that you begin an apprenticeship. Or you can start to study, too! But I want that you DO SOMETHING with your life!","image":"./images/char2.png","bgimg":"./images/bgimg/background1.jpg"},\
-	{"name" : "Jeff","text":"Yes, Mum...","image":"./images/char1.png","bgimg":"./images/bgimg/background1.jpg"},\
+	{"name" : "Thommy","text":"Yes, Mum...","image":"./images/char1.png","bgimg":"./images/bgimg/background1.jpg"},\
 	{"name" : "Mom","text":"I want to see some results soon! Do something!","image":"./images/char2.png","bgimg":"./images/bgimg/background1.jpg"},\
-	{"name" : "Jeff","text":"Yes... Mum...","image":"./images/char1.png","bgimg":"./images/bgimg/background1.jpg"},\
+	{"name" : "Thommy","text":"Yes... Mum...","image":"./images/char1.png","bgimg":"./images/bgimg/background1.jpg"},\
 	{"name" : "Mom","text":"Yes! Yes! I still here this word from you since you are out of school! I cant here it anymore! I have to get back to work again. We talk later again!","image":"./images/char2.png","bgimg":"./images/bgimg/background1.jpg"},\
-	{"name" : "Jeff","text":"Okay, Bye Mu...","image":"./images/char1.png","bgimg":"./images/bgimg/background1.jpg"},\
+	{"name" : "Thommy","text":"Okay, Bye Mu...","image":"./images/char1.png","bgimg":"./images/bgimg/background1.jpg"},\
 	{"name" : " ","text":"But she was already gone.","image":" ","bgimg":"./images/bgimg/background1.jpg"},\
-	{"name" : " ","text":"Jeff stands up. He is exasperated. I should play some minutes for now. He thought like everyday. Just to wake up in full strength. Other people drink coffee or do yoga. Jeff is a gamer. The hours pass by. And Jeff did not notice that.","image":" ","bgimg":"./images/bgimg/background1.jpg"},\
-	{"name" : " ","text":"Jeff plays a computer game. It is 5pm. With a Headset, he speaks with his friends and plays his favorite game: Farming Simulator 2017. During his job as a farmer, he hears a wellknown sound. Goosebumps again. He mutes his Headset instinctively. Not a moment to soon. The door opens and Jeffs mother stands in the middle of the room.","image":" ","bgimg":"./images/bgimg/background1.jpg"},\
+	{"name" : " ","text":"Thommy stands up. He is exasperated. I should play some minutes for now. He thought like everyday. Just to wake up in full strength. Other people drink coffee or do yoga. Thommy is a gamer. The hours pass by. And Thommy did not notice that.","image":" ","bgimg":"./images/bgimg/background1.jpg"},\
+	{"name" : " ","text":"Thommy plays a computer game. It is 5pm. With a Headset, he speaks with his friends and plays his favorite game: Farming Simulator 2017. During his job as a farmer, he hears a wellknown sound. Goosebumps again. He mutes his Headset instinctively. Not a moment to soon. The door opens and Thommys mother stands in the middle of the room.","image":" ","bgimg":"./images/bgimg/background1.jpg"},\
 	{"name" : "Mom","text":"YOU MUST BE KIDDING! It looks like a pigsty in here!","image":"./images/char2.png","bgimg":"./images/bgimg/background1.jpg"},\
-	{"name" : " ","text":"Jeff takes a breath for an answer, but...","image":" ","bgimg":"./images/bgimg/background1.jpg"},\
-	{"name" : "Mom","text":"I am very disappointed, Jeff. My patience was sorely tried... You have to decide NOW! Or I throw you out of this house!","image":"./images/char2.png","bgimg":"./images/bgimg/background1.jpg"}]';
+	{"name" : " ","text":"Thommy takes a breath for an answer, but...","image":" ","bgimg":"./images/bgimg/background1.jpg"},\
+	{"name" : "Mom","text":"I am very disappointed, Thommy. My patience was sorely tried... You have to decide NOW! Or I throw you out of this house!","image":"./images/char2.png","bgimg":"./images/bgimg/background1.jpg"}]';
 
 choose1 = '[{"option1":"Come down, Mum. I will apply for an apprenticeship.","option2":"Everything is right, Mum. I will go study!","option3":"You are just scared!"}]';
 
 chapter1op1 = '[\
-{"arrayName":"chapter1op1","name" : "Mom","text":"Oh...Okay...I am glad to hear that, Jeff.","image":"./images/char2.png","bgimg":"./images/bgimg/background1.jpg"},\
+{"arrayName":"chapter1op1","name" : "Mom","text":"Oh...Okay...I am glad to hear that, Thommy.","image":"./images/char2.png","bgimg":"./images/bgimg/background1.jpg"},\
 {"name" : "Mom","text":"I think you will find a good apprenticeship! It is time to eat soon!","image":"./images/char2.png","bgimg":"./images/bgimg/background1.jpg"},\
 {"name" : " ","text":"She left his room.","image":" ","bgimg":"./images/bgimg/background1.jpg"},\
 {"name" : " ","text":"The next day","image":" ","bgimg":" "},\
-{"name" : " ","text":"Jeff decided to apply to an apprenticeship. He thinks about his strengths and weaknesses. One of his absouletly weakness is that he does not like to work outside. He loves computers and he wants to do something with that. Another weakness is that he has problems to get in touch with other people. He does not like Small Talk, courtesies and all this stuff that is need to get friends or even to have a chance to start a relationship.","image":" ","bgimg":" "},\
-{"name" : " ","text":"Jeff is a loner. He has always been. And he will always stay in that way. But if he wants to live between all this people with all this technical progress (that he finds so appealing and fascinating). With all this advantages and the disadvantages. If he wants to be a part of it, he has to find his place.","image":" ","bgimg":" "},\
-{"name" : "Jeff","text":"Great decisions involves always great risks.","image":" ","bgimg":" "},\
-{"name" : " ","text":"Jeff thoughts. He is scared from the idea, that he has to plan his whole life RIGHT now. He has to decide what he wants to do now. Jeff makes a plan.","image":" ","bgimg":" "},\
-{"name" : "Jeff","text":"An apprenticeship - Yes. As an computer scientist - Yes. But wich company?","image":" ","bgimg":" "},\
+{"name" : " ","text":"Thommy decided to apply to an apprenticeship. He thinks about his strengths and weaknesses. One of his absouletly weakness is that he does not like to work outside. He loves computers and he wants to do something with that. Another weakness is that he has problems to get in touch with other people. He does not like Small Talk, courtesies and all this stuff that is need to get friends or even to have a chance to start a relationship.","image":" ","bgimg":" "},\
+{"name" : " ","text":"Thommy is a loner. He has always been. And he will always stay in that way. But if he wants to live between all this people with all this technical progress (that he finds so appealing and fascinating). With all this advantages and the disadvantages. If he wants to be a part of it, he has to find his place.","image":" ","bgimg":" "},\
+{"name" : "Thommy","text":"Great decisions involves always great risks.","image":" ","bgimg":" "},\
+{"name" : " ","text":"Thommy thoughts. He is scared from the idea, that he has to plan his whole life RIGHT now. He has to decide what he wants to do now. Thommy makes a plan.","image":" ","bgimg":" "},\
+{"name" : "Thommy","text":"An apprenticeship - Yes. As an computer scientist - Yes. But wich company?","image":" ","bgimg":" "},\
 {"name" : " ","text":"He has never wrote an application in his life. So he trys to find out something about this in the internet.","image":" ","bgimg":" "},\
 {"name" : " ","text":"Afternoon","image":" ","bgimg":" "},\
-{"name" : " ","text":"Jeff searched for hours to get the knowledge he needs to write an application. But he does not know where to find the right company. He trys the internet one more time. After a few seconds he finds a website with many jobs. Jobmania.","image":" ","bgimg":" "},\
+{"name" : " ","text":"Thommy searched for hours to get the knowledge he needs to write an application. But he does not know where to find the right company. He trys the internet one more time. After a few seconds he finds a website with many jobs. Jobmania.","image":" ","bgimg":" "},\
 {"name" : " ","text":"His smartphone rings.","image":" ","bgimg":" "},\
-{"name" : "Jeff","text":"Hello?","image":"./images/char1.png","bgimg":" "},\
-{"name" : "Marco","text":"Hi Jeff! It is me – Marco!","image":"./images/char5.png","bgimg":" "},\
-{"name" : " ","text":"Marco is some of Jeffs childhood friends. He lives almost next door to Jeff and sometimes, they meet at the playground or go to the forest. They smoke some cigarettes and exchange their latest news to each other. Jeff does not know why Marco calls him everytime, again and again. Maybe he does not want to smoke alone. Maybe he can not smoke at home, so he needs a smoke-partner. Jeff does not know and it is not important. He needs a smoke-partner, too.","image":" ","bgimg":" "},\
-{"name" : "Jeff","text":"Hi Marco. What is up?.","image":"./images/char1.png","bgimg":" "},\
+{"name" : "Thommy","text":"Hello?","image":"./images/char1.png","bgimg":" "},\
+{"name" : "Marco","text":"Hi Thommy! It is me – Marco!","image":"./images/char5.png","bgimg":" "},\
+{"name" : " ","text":"Marco is some of Thommys childhood friends. He lives almost next door to Thommy and sometimes, they meet at the playground or go to the forest. They smoke some cigarettes and exchange their latest news to each other. Thommy does not know why Marco calls him everytime, again and again. Maybe he does not want to smoke alone. Maybe he can not smoke at home, so he needs a smoke-partner. Thommy does not know and it is not important. He needs a smoke-partner, too.","image":" ","bgimg":" "},\
+{"name" : "Thommy","text":"Hi Marco. What is up?.","image":"./images/char1.png","bgimg":" "},\
 {"name" : "Marco","text":"I have to tell you something really incredible! Come and meet me at the playground in 5 minutes,okay?","image":"./images/char5.png","bgimg":" "},\
-{"name" : " ","text":"Jeff frowns. He has to find an apprenticeship... But a little break could do well...He has to decide now.","image":" ","bgimg":" "}]';
+{"name" : " ","text":"Thommy frowns. He has to find an apprenticeship... But a little break could do well...He has to decide now.","image":" ","bgimg":" "}]';
 
 chapter1op2 = '[\
-{"arrayName":"chapter1op2","name" : "Mom","text":"Oh...Okay...I am glad to hear that, Jeff.","image":"./images/char2.png","bgimg":"./images/bgimg/background1.jpg"},\
+{"arrayName":"chapter1op2","name" : "Mom","text":"Oh...Okay...I am glad to hear that, Thommy.","image":"./images/char2.png","bgimg":"./images/bgimg/background1.jpg"},\
 {"name" : "Mom","text":"I hope you will find something good! It is time to eat soon!","image":"./images/char2.png","bgimg":"./images/bgimg/background1.jpg"},\
 {"name" : " ","text":"She left his room.","image":" ","bgimg":"./images/bgimg/background1.jpg"},\
 {"name" : " ","text":"The next day","image":" ","bgimg":" "},\
-{"name" : " ","text":"Jeff decided to study. He thinks about his strengths and weaknesses. One of his absouletly weakness is that he does not like to work outside. He loves computers and he wants to do something with that. Another weakness is that he has problems to get in touch with other people. He does not like Small Talk, courtesies and all this stuff that is need to get friends or even to have a chance to start a relationship.","image":" ","bgimg":" "},\
-{"name" : " ","text":"Jeff is a loner. He has always been. And he will always stay in that way. But if he wants to live between all this people with all this technical progress (that he finds so appealing and fascinating). With all this advantages and the disadvantages. If he wants to be a part of it, he has to find his place.","image":" ","bgimg":" "},\
-{"name" : "Jeff","text":"Great decisions involves always great risks.","image":" ","bgimg":" "},\
-{"name" : " ","text":"He is scared from the idea, that he has to plan his whole life RIGHT now. He has to decide what he wants to do now. Jeff makes a plan.","image":" ","bgimg":" "},\
-{"name" : "Jeff","text":"I want to study – Yes. Something with computers – Yes. But which study course? There are so many.","image":" ","bgimg":" "},\
+{"name" : " ","text":"Thommy decided to study. He thinks about his strengths and weaknesses. One of his absouletly weakness is that he does not like to work outside. He loves computers and he wants to do something with that. Another weakness is that he has problems to get in touch with other people. He does not like Small Talk, courtesies and all this stuff that is need to get friends or even to have a chance to start a relationship.","image":" ","bgimg":" "},\
+{"name" : " ","text":"Thommy is a loner. He has always been. And he will always stay in that way. But if he wants to live between all this people with all this technical progress (that he finds so appealing and fascinating). With all this advantages and the disadvantages. If he wants to be a part of it, he has to find his place.","image":" ","bgimg":" "},\
+{"name" : "Thommy","text":"Great decisions involves always great risks.","image":" ","bgimg":" "},\
+{"name" : " ","text":"He is scared from the idea, that he has to plan his whole life RIGHT now. He has to decide what he wants to do now. Thommy makes a plan.","image":" ","bgimg":" "},\
+{"name" : "Thommy","text":"I want to study – Yes. Something with computers – Yes. But which study course? There are so many.","image":" ","bgimg":" "},\
 {"name" : " ","text":"So he trys to find out something about the differences from the study courses in the internet.","image":" ","bgimg":" "},\
 {"name" : " ","text":"Afternoon","image":" ","bgimg":" "},\
-{"name" : " ","text":"Jeff has searched for hours to get the knowledge he needs. He has selected 2 study courses that he finds interesting, from a website called Studymania. Information Technologies and computer linguistics.","image":" ","bgimg":" "},\
+{"name" : " ","text":"Thommy has searched for hours to get the knowledge he needs. He has selected 2 study courses that he finds interesting, from a website called Studymania. Information Technologies and computer linguistics.","image":" ","bgimg":" "},\
 {"name" : " ","text":"His smartphone rings.","image":" ","bgimg":" "},\
-{"name" : "Jeff","text":"Hello?","image":"./images/char1.png","bgimg":" "},\
-{"name" : "Marco","text":"Hi Jeff! It is me – Marco!","image":"./images/char5.png","bgimg":" "},\
-{"name" : " ","text":"Marco is some of Jeffs childhood friends. He lives almost next door to Jeff and sometimes, they meet at the playground or go to the forest. They smoke some cigarettes and exchange their latest news to each other. Jeff does not know why Marco calls him everytime, again and again. Maybe he does not want to smoke alone. Maybe he can not smoke at home, so he needs a smoke-partner. Jeff does not know and it is not important. He needs a smoke-partner, too.","image":" ","bgimg":" "},\
-{"name" : "Jeff","text":"Hi Marco. What is up?.","image":"./images/char1.png","bgimg":" "},\
+{"name" : "Thommy","text":"Hello?","image":"./images/char1.png","bgimg":" "},\
+{"name" : "Marco","text":"Hi Thommy! It is me – Marco!","image":"./images/char5.png","bgimg":" "},\
+{"name" : " ","text":"Marco is some of Thommys childhood friends. He lives almost next door to Thommy and sometimes, they meet at the playground or go to the forest. They smoke some cigarettes and exchange their latest news to each other. Thommy does not know why Marco calls him everytime, again and again. Maybe he does not want to smoke alone. Maybe he can not smoke at home, so he needs a smoke-partner. Thommy does not know and it is not important. He needs a smoke-partner, too.","image":" ","bgimg":" "},\
+{"name" : "Thommy","text":"Hi Marco. What is up?.","image":"./images/char1.png","bgimg":" "},\
 {"name" : "Marco","text":"I have to tell you something really incredible! Come and meet me at the playground in 5 minutes,okay?","image":"./images/char5.png","bgimg":" "},\
-{"name" : " ","text":"Jeff frowns. He has to find the right study course... But a little break could do well...","image":" ","bgimg":" "}]';
+{"name" : " ","text":"Thommy frowns. He has to find the right study course... But a little break could do well...","image":" ","bgimg":" "}]';
 
 chapter1op3 = '[\
 {"arrayName":"chapter1op3","name" : " ","text":"10 Minutes later","image":" ","bgimg":" "},\
-{"name" : " ","text":"Jeff was kicked out from the house by his mom.","image":" ","bgimg":" "},\
+{"name" : " ","text":"Thommy was kicked out from the house by his mom.","image":" ","bgimg":" "},\
 {"name" : " ","text":"He has made the wrong decision.","image":" ","bgimg":" "},\
 {"name" : " ","text":"He is destitute and he has no home anymore.","image":" ","bgimg":" "},\
 {"name" : " ","text":"He went lost in the infinity of the streets. And no one of his old life would ever see him again.","image":" ","bgimg":" "},\
@@ -76,20 +76,346 @@ chapter1op3 = '[\
 choose2 = '[{"option1":"Go and meet Marco.","option2":"Meet Marco later and continue the search for a company.","option3":"Tell Marco, that you do not have time for him anymore. There are now more important things inyour life then friendship."}]';
 
 chapter2op1 = '[\
-{"arrayName":"chapter2op1","name" : "Jeff","text":"Okay, Marco! Gimme ten minutes!","image":"./images/char1.png","bgimg":" "},\
-{"name" : "Marco","text":"Alright! See ya!","image":"./images/char5.png","bgimg":" "},\
-{"name" : " ","text":"Marco hung up","image":" ","bgimg":" "}]'
+{"arrayName":"chapter2op1","ending2":true,"name" : "Thommy","text":"Okay, Marco! Gimme ten minutes!","image":"./images/char1.png","bgimg":"./images/bgimg/background1.jpg","skip": true},\
+{"name" : "Marco","text":"Alright! See ya!","image":"./images/char5.png","bgimg":"./images/bgimg/background1.jpg"},\
+{"name" : " ","text":"Marco hung up","image":" ","bgimg":"./images/bgimg/background1.jpg"},\
+{"name" : " ","text":"Five weeks are gone, since he has applied. He becomes nervous. Slowly... but steady. At this morning – like every morning – he takes a look in the postbox.  Without any hope to find something adressed to him. He pulls out a few letters. He searches through it.","image":"","bgimg":""},\
+{"name" : "Thommy","text":"For Mom, for mom, for dad... dad, dad, mom... Wait... what is this?!","image":"./images/char1.png","bgimg":"./images/bgimg/background1.jpg"},\
+{"name" : "","text":"Thommy recieved an answer to his application!!","image":"","bgimg":"./images/bgimg/background1.jpg"},\
+{"name" : "","text":"He thought that he was nervous in the past, but now he is getting REALLY nervous.","image":"","bgimg":"./images/bgimg/background1.jpg"},\
+{"name" : "","text":"He has no idea if the company wants to accept him. With hands that are shaking like never before in his whole life, he opens the envelope. ","image":"","bgimg":"./images/bgimg/background1.jpg"},\
+{"name" : "","text":"His eyes flit about the lines. And then, his eyes widen. His lips form a big, big smile. A VERY big smile. Then he runs fast to his mother to tell her the massage he has.","image":" ","bgimg":"./images/bgimg/background1.jpg"},\
+{"name" : "","text":"A few months later","image":"","bgimg":""},\
+{"name" : "","text":"Thommy has well settled down to his new company. He is absolutely okay with his colleagues and he earns good money. All in all, it is okay. It is not like he imagined before.","image":"","bgimg":""},\
+{"name" : "Thommy","text":"The future comes always in other ways, then we can imagine.","image":"./images/char1.png","bgimg":""},\
+{"name" : "","text":"Just a few months ago, he could not imagine that he will have a workplace that he loves and he likes to go. Every day. The future is a mysterious thing, without rules and without cheats.","image":"","bgimg":"./images/bgimg/background2.jpg"},\
+{"name" : "","text":"His boss - Mr. Rockberry - 55 years. Maybe more, maybe less. He has much experience and all in all, he is a good boss. If someone has a private request – he will always listen to his employees and trys to help. But when it comes to work, he is very strict. ","image":"","bgimg":"./images/bgimg/background2.jpg"},\
+{"name" : "","text":"One year later","image":"","bgimg":""},\
+{"name" : "","text":"Thommy had a good year. He learned much and established himself as a valuable part of the team. Furthermore, he has an own apartment now and is very happy currently. ","image":"","bgimg":"./images/bgimg/background2.jpg"},\
+{"name" : "","text":"Today, the company gets new Trainees. Thommy is highly excited, because he has a very special task for this day. His job is to welcome the new ones and to show them how the company works.","image":"","bgimg":"./images/bgimg/background2.jpg"},\
+{"name" : "","text":"At this day, without knowing it, he would meet a very important person: Sonka. She is 19 years and have very pretty eyes. Thommy does not talk much with her, but this condition will change soon.","image":"","bgimg":"./images/bgimg/background2.jpg"},\
+{"name" : "","text":"Later this day","image":"","bgimg":""},\
+{"name" : "","text":"Mr. Rockberrys lets Thommy call to his office.","image":"","bgimg":"./images/bgimg/background3.jpg"},\
+{"name" : "Mr.Rockberry","text":"Nice work, Thommy.","image":"./images/char4.png","bgimg":"./images/bgimg/background3.jpg"},\
+{"name" : "Thommy","text":"Thanks, Mr. Rockberry.","image":"./images/char1.png","bgimg":"./images/bgimg/background3.jpg"},\
+{"name" : "Mr.Rockberry","text":"Please, call me John, Thommy. It is one year now that you work here with us and im very glad to say that you are a part of this team!","image":"./images/char4.png","bgimg":"./images/bgimg/background3.jpg"},\
+{"name" : "","text":"Thommy did not know what to say. He is absolutly surprised about Mr. Rockberrs – no, Johns – reaction.","image":"","bgimg":"./images/bgimg/background3.jpg"},\
+{"name" : "Mr.Rockberry","text":"I hope that you will hang in! I need someone at my side. You know what I mean? I will not be here for ever and, honestly, I dont want that at all. My time is comming to an end in the near future. A few years more. And at the moment, there is no one that fits to my position.","image":"./images/char4.png","bgimg":"./images/bgimg/background3.jpg"},\
+{"name" : "Tommy","text":"I think I understand.","image":"./images/char1.png","bgimg":"./images/bgimg/background3.jpg"},\
+{"name" : "Mr.Rockberry","text":"It is your choice. If you want to have success, you have to work hard!","image":"./images/char4.png","bgimg":"./images/bgimg/background3.jpg"}]'
 
 chapter2op2 = '[\
-{"arrayName":"chapter2op2","name" : "Jeff","text":"I am sorry, but I can not...","image":"./images/char1.png","bgimg":" "},\
-{"name" : "Marco","text":"Oh.. Okay...","image":"./images/char5.png","bgimg":" "},\
-{"name" : "Jeff","text":"I have to find an university now. I am sorry.","image":"./images/char1.png","bgimg":" "},\
-{"name" : "Marco","text":"Oh.. Okay...","image":"./images/char5.png","bgimg":" "}]';
+{"arrayName":"chapter2op2","ending3":true,"name" : "Thommy","text":"I am sorry, but I can not...","image":"./images/char1.png","bgimg":"./images/bgimg/background1.jpg","skip": true},\
+{"name" : "Marco","text":"Oh.. Okay...","image":"./images/char5.png","bgimg":"./images/bgimg/background1.jpg"},\
+{"name" : "Thommy","text":"I have to find an university now. I am sorry.","image":"./images/char1.png","bgimg":"./images/bgimg/background1.jpg"},\
+{"name" : "Marco","text":"Oh.. Okay...","image":"./images/char5.png","bgimg":"./images/bgimg/background1.jpg"},\
+{"name" : "","text":"Thommy decided to meet Marco later and continue his search for an apprenticeship.","image":"","bgimg":"./images/bgimg/background1.jpg"},\
+{"name" : " ","text":"Five weeks are gone, since he has applied. He becomes nervous. Slowly... but steady. At this morning – like every morning – he takes a look in the postbox.  Without any hope to find something adressed to him. He pulls out a few letters. He searches through it.","image":"","bgimg":""},\
+{"name" : "Thommy","text":"For Mom, for mom, for dad... dad, dad, mom... Wait... what is this?!","image":"./images/char1.png","bgimg":"./images/bgimg/background1.jpg"},\
+{"name" : "","text":"Thommy recieved an answer to his application!!","image":"","bgimg":"./images/bgimg/background1.jpg"},\
+{"name" : "","text":"He thought that he was nervous in the past, but now he is getting REALLY nervous.","image":"","bgimg":"./images/bgimg/background1.jpg"},\
+{"name" : "","text":"He has no idea if the company wants to accept him. With hands that are shaking like never before in his whole life, he opens the envelope. ","image":"","bgimg":"./images/bgimg/background1.jpg"},\
+{"name" : "","text":"His eyes flit about the lines. And then, his eyes widen. His lips form a big, big smile. A VERY big smile. Then he runs fast to his mother to tell her the massage he has.","image":" ","bgimg":"./images/bgimg/background1.jpg"},\
+{"name" : "","text":"A few months later","image":"","bgimg":""},\
+{"name" : "","text":"Thommy has well settled down to his new workplace: the university. He met new people. There is one special person that he really likes: Jill.  His grades could be better, but all in all, it is okay. It is not like he imagined before.","image":"","bgimg":""},\
+{"name" : "Thommy","text":"The future comes always in other ways, then we can imagine.","image":"./images/char1.png","bgimg":""},\
+{"name" : "","text":"A place that he loves and he really likes to go. Every day. The future is a mysterious thing, without rules and without cheats.","image":"","bgimg":"./images/bgimg/background4.jpg"},\
+{"name" : "","text":"Dr. Stock is very pleasant. She always has time for him and listen to his problems. Thommy is very happy to be here.","image":"","bgimg":"./images/bgimg/background4.jpg"},\
+{"name" : "","text":"One year later","image":"","bgimg":""},\
+{"name" : "","text":"Thommy had a good year. He learned a lot and established himself as a part of the university. He has found a student job there. The work itself is not that interesting.","image":"","bgimg":"./images/bgimg/background4.jpg"},\
+{"name" : "","text":"Thommys tasks are just to organize some small things, like to order drinks and cakes for some Benefits organizations – but he speaks with many people at his work and that is what Thommy really likes.","image":"","bgimg":"./images/bgimg/background4.jpg"},\
+{"name" : "","text":"At this day, he has to bring sandwiches to a sales stand where stuends can buy some and to support victims in syria.","image":"","bgimg":"./images/bgimg/background4.jpg"},\
+{"name" : "","text":"Later this day","image":"","bgimg":""},\
+{"name" : "","text":"Dr. Stock lets Thommy call to her office.","image":"","bgimg":"./images/bgimg/background3.jpg"},\
+{"name" : "Dr. Stock","text":"Nice work, Thommy.","image":"./images/char6.png","bgimg":"./images/bgimg/background3.jpg"},\
+{"name" : "Thommy","text":"Thanks, Dr. Stock.","image":"./images/char1.png","bgimg":"./images/bgimg/background3.jpg"},\
+{"name" : "Dr. Stock","text":"Please, call me Jennifer, Thommy. You are working now for a few weeks with us and I am glad to say that you are a very helpfull part of the team!","image":"./images/char6.png","bgimg":"./images/bgimg/background3.jpg"},\
+{"name" : "","text":"Thommy did not know what to say. He is absolutly surprised about Dr.Stock – no, Jennifers – reaction.","image":"","bgimg":"./images/bgimg/background3.jpg"},\
+{"name" : "Dr. Stock","text":"I hope you will be here so long you are a student. And maybe after you finished your study, you may could work here! But you have to hang in and give your best!","image":"./images/char6.png","bgimg":"./images/bgimg/background3.jpg"},\
+{"name" : "Tommy","text":"I think I understand.","image":"./images/char1.png","bgimg":"./images/bgimg/background3.jpg"},\
+{"name" : "Dr. Stock","text":"It is your choice. If you want to have success, you have to work hard!","image":"./images/char6.png","bgimg":"./images/bgimg/background3.jpg"}]';
 
 chapter2op3 = '[\
-{"arrayName":"chapter2op3","name" : " ","text":"Marco gets really angry. He does not understand Jeff.","image":" ","bgimg":" "},\
+{"arrayName":"chapter2op3","name" : " ","text":"Marco gets really angry. He does not understand Thommy.","image":" ","bgimg":" "},\
 {"name" : "Marco","text":"So go and do your thing, dumbass! I am done!","image":"./images/char5.png","bgimg":" "},\
-{"name" : " ","text":"Jeffs only friend will never talk with him again. And Jeff will never be happy again.","image":" ","bgimg":" "},\
+{"name" : " ","text":"Thommys only friend will never talk with him again. And Thommy will never be happy again.","image":" ","bgimg":" "},\
 {"name" : " ","text":"Game Over","image":" ","bgimg":"./images/bgimg/gameover.jpg"}]'
 
-choose3 = '[]';
+choose3 = '[{"option1":"Work hard and work much. Choose to be a workaholic.","option2":"Do not work too much. Set your focus on more leisure time.","option3":"I do not want to work... Fuck it!"}]';
+
+chapter3op1 = '[\
+{"arrayName":"chapter3op1","ending3":true,"name" : "Thommy","text":"I will give my best! You wont be disappointed!","image":"./images/char1.png","bgimg":"./images/bgimg/background3.jpg"},\
+{"name" : "","text":"2 years later","image":"","bgimg":""},\
+{"name" : "","text":"Weekend. Thommy is playing video games. He has is own appartment now and he really enjoys it.","image":"","bgimg":"./images/bgimg/background5.jpg"},\
+{"name" : "","text":"He has worked a lot in past years. And he earned much respect... and money. Thommy loves his job.","image":"","bgimg":"./images/bgimg/background5.jpg"},\
+{"name" : "","text":"After a few hours of playing, his phone rings:","image":"","bgimg":"./images/bgimg/background5.jpg"},\
+{"name" : "Thommy","text":"Hello?","image":"./images/char1.png","bgimg":"./images/bgimg/background5.jpg"},\
+{"name" : "Marco","text":"Hi Thommy! It is me, Marco.","image":"./images/char5.png","bgimg":"./images/bgimg/background5.jpg"},\
+{"name" : "Thommy","text":"Hi, Marco. Whats up?","image":"./images/char1.png","bgimg":"./images/bgimg/background5.jpg"},\
+{"name" : "Marco","text":"I am sitting here at home and I am so bored. I want to go out today! Do you want to go with me?","image":"./images/char5.png","bgimg":"./images/bgimg/background5.jpg"}]';
+
+chapter3op2 = '[\
+{"arrayName":"chapter3op2","ending2":true,"name" : "Thommy","text":"I will do my work and I will be a good part of that team, but...","image":"./images/char1.png","bgimg":"./images/bgimg/background3.jpg"},\
+{"name" : "","text":"2 years later","image":"","bgimg":""},\
+{"name" : "","text":"Weekend. Thommy is playing video games.","image":"","bgimg":"./images/bgimg/background6.jpg"},\
+{"name" : "","text":"He has worked  a lot in past years. He has perfect grades and a good contact to the professors. Thommy loves the university.","image":"","bgimg":"./images/bgimg/background6.jpg"},\
+{"name" : "","text":"After a few hours of playing, his phone rings:","image":"","bgimg":"./images/bgimg/background6.jpg"},\
+{"name" : "Thommy","text":"Hello?","image":"./images/char1.png","bgimg":"./images/bgimg/background6.jpg"},\
+{"name" : "Marco","text":"Hi Thommy! It is me, Marco.","image":"./images/char5.png","bgimg":"./images/bgimg/background6.jpg"},\
+{"name" : "Thommy","text":"Hi, Marco. Whats up?","image":"./images/char1.png","bgimg":"./images/bgimg/background6.jpg"},\
+{"name" : "Marco","text":"I am sitting here at home and I am so bored. I want to go out today! Do you want to go with me?","image":"./images/char5.png","bgimg":"./images/bgimg/background6.jpg"}]';
+
+chapter3op3 = '[\
+{"arrayName":"chapter3op3","name" : " ","text":"Ten years later","image":" ","bgimg":" "},\
+{"name" : "","text":"Thommy decided that he wont work.","image":"./images/char5.png","bgimg":" "},\
+{"name" : " ","text":"And so he has no money, no home, nothing...","image":" ","bgimg":" "},\
+{"name" : " ","text":"He is alone because no one wants to speak with him.","image":" ","bgimg":""},\
+{"name" : " ","text":"Was it the right decision?","image":" ","bgimg":""},\
+{"name" : " ","text":"Game Over","image":" ","bgimg":"./images/bgimg/gameover.jpg"}]';
+
+choose4 = '[{"option1":"Sure! Why not?!","option2":"Sorry Marco. No time today","option3":"I would rather hang myself. Bye."}]';
+
+chapter4op1 = '[\
+{"arrayName":"chapter4op1","ending2":true,"name" : "Marco","text":"Ok, nice! I pick you up at 07:00 pm, okay?","image":"./images/char5.png","bgimg":"./images/bgimg/background5.jpg"},\
+{"name" : "Thommy","text":"Alright, Marco. See you later.","image":"./images/char5.png","bgimg":"./images/bgimg/background5.jpg"},\
+{"name" : "Marco","text":"See you!","image":"./images/char5.png","bgimg":"./images/bgimg/background5.jpg"},\
+{"name" : "","text":"Five years later","image":"","bgimg":"","skip": true},\
+{"name" : "","text":"Thommy has worked much in the last few years. And that is why he is the boss now. He is the new Mr. Rockberry!","image":"","bgimg":"./images/bgimg/background3.jpg"},\
+{"name" : "","text":"He moved into a new, bigger appartment. And it is full of cool stuff. A gigantic flat screen with the newest home cinema system. A huge bed and a high-tec computer. And a new car in front of the house.","image":"","bgimg":"./images/bgimg/background3.jpg"},\
+{"name" : "","text":"Thommy loves everything of that. But there is one thing that he miss: Love.","image":"","bgimg":"./images/bgimg/background3.jpg"},\
+{"name" : "Thommy","text":"Maybe I should get out he thinks Or im gonna die alone...","image":"./images/char1.png","bgimg":"./images/bgimg/background3.jpg"}]';
+
+chapter4op2 = '[\
+{"arrayName":"chapter4op2","ending1":true,"name" : "Thommy","text":"Okay Thommy. I understand. See you.","image":"./images/char5.png","bgimg":"./images/bgimg/background6.jpg"},\
+{"name" : "","text":"Five years later","image":"","bgimg":"","skip": true},\
+{"name" : "","text":"Thommy has worked much in the last few years. He has finished his studies and has a nice job at the university now. And he has many friendly colleagues. They have much fun together.","image":"","bgimg":"./images/bgimg/background6.jpg"},\
+{"name" : "","text":"Thommy loves everything of that. But there is one thing that he miss: Love.","image":"","bgimg":"./images/bgimg/background6.jpg"},\
+{"name" : "Thommy","text":"Maybe I should get out he thinks Or im gonna die alone...","image":"./images/char1.png","bgimg":"./images/bgimg/background6.jpg"}]';
+
+chapter4op3 = '[\
+{"arrayName":"chapter4op3","name" : " ","text":"Thommy leaves the appartment and will never look back.","image":" ","bgimg":" "},\
+{"name" : "","text":"He will start a new life. ","image":"./images/char5.png","bgimg":" "},\
+{"name" : " ","text":"But that is not part of this story, so its time to decide again...","image":" ","bgimg":" "},\
+{"name" : " ","text":"Game Over","image":" ","bgimg":"./images/bgimg/gameover.jpg"}]';
+
+choose5 = '[{"option1":"Find a girlfriend in the internet.","option2":"Go to work and make some overtime.","option3":"Cancel your job and emigrate in a new land."}]';
+
+chapter5op1 = '[\
+{"arrayName":"chapter5op1","ending2":true, "name" : " ", "text":"Thommy searchs in the internet for hours and hours.","image":"","bgimg":"./images/bgimg/background6.jpg"},\
+{"name" : " ","text":"After a while, his face falls on his desk and he falls asleep.","image":" ","bgimg":"./images/bgimg/background6.jpg"},\
+{"name" : " ","text":"A few months later","image":" ","bgimg":""},\
+{"name" : "","text":"December. Cold winds blow around the houses. Many dark clouds hang in the sky.","image":"","bgimg":"./images/bgimg/background3.jpg"},\
+{"name" : "","text":"Thommy - sitting in the office – looks out of the window. Enjoying a wonderful daydream. About christmas cookies and many, many gifts","image":"","bgimg":"./images/bgimg/background3.jpg"},\
+{"name" : " ","text":"Yes. It is christmas time.","image":" ","bgimg":"./images/bgimg/background3.jpg"},\
+{"name" : "","text":"In this moment his boss, Mr. Rockberry, comes in. Actually, his name is John.","image":"","bgimg":"./images/bgimg/background3.jpg"},\
+{"name":"Rockberry" , "text" : "Good morning, Thommy!","image":"./images/char4.png","bgimg":"./images/bgimg/background3.jpg"},\
+{"name":"Thommy" , "text" : "Good morning, John!","image":"./images/char1.png","bgimg":"./images/bgimg/background3.jpg"},\
+{"name":"Rockberry" , "text" : "Your project was great, I heard. He is similing at Thommy. Do you know that it is time for christmas party?","image":"./images/char4.png","bgimg":"./images/bgimg/background3.jpg"},\
+{"name":"Thommy" , "text" : "Sure. It is tomorrow, right?","image":"./images/char1.png","bgimg":"./images/bgimg/background3.jpg"},\
+{"name":"Rockberry" , "text" : "Yes. Tomorrow at 5.00pm. Here in the office.","image":"./images/char4.png","bgimg":"./images/bgimg/background3.jpg"},\
+{"name":"Thommy" , "text" : "I am looking forward to it!","image":"./images/char1.png","bgimg":"./images/bgimg/background3.jpg"},\
+{"name":"Rockberry" , "text" : "Great!","image":"./images/char4.png","bgimg":"./images/bgimg/background3.jpg"},\
+{"name" : " ","text":"One day later","image":" ","bgimg":""},\
+{"name" : " ","text":"Christmas party. All of Thommys colleagues are there. They are talking about everything, except workthemes. That is like a christmas party in the office should like.","image":" ","bgimg":"./images/bgimg/background7.jpg"},\
+{"name" : " ","text":"Thommy feels very comfortable. And there is one person, that he thinks is very attractive: Sonka. He has drunk enough to feel safe. He actually dares the first step.","image":" ","bgimg":"./images/bgimg/background7.jpg"},\
+{"name":"Thommy" , "text" : "Hey, Sonka.","image":"./images/char1.png","bgimg":"./images/bgimg/background7.jpg"},\
+{"name":"Sonka" , "text" : "Hi Thommy","image":"./images/char3.png","bgimg":"./images/bgimg/background7.jpg"},\
+{"name" : " ","text":"Now he does not feel so safe anymore.","image":" ","bgimg":"./images/bgimg/background7.jpg"},\
+{"name":"Thommy" , "text" : "So... You are here.","image":"./images/char1.png","bgimg":"./images/bgimg/background7.jpg"},\
+{"name":"Sonka" , "text" : "Yes... You too.","image":"./images/char3.png","bgimg":"./images/bgimg/background7.jpg"},\
+{"name" : " ","text":"He could barely look into her eyes. Why I am so shy? he thought ashamed. It seems like she noticed it.","image":" ","bgimg":"./images/bgimg/background7.jpg"},\
+{"name":"Sonka" , "text" : "Could you please wait here?","image":"./images/char3.png","bgimg":"./images/bgimg/background7.jpg"},\
+{"name" : " ","text":"Too fast for an answer from Thommy. He feels so embarrassed. You are such a fool... he thought.","image":" ","bgimg":"./images/bgimg/background7.jpg"},\
+{"name" : " ","text":"But not a second later, Sonka returns. With some drinks.","image":" ","bgimg":"./images/bgimg/background7.jpg"},\
+{"name" : "Sonka" , "text":"I thought you may want to have a drink?","image":"./images/char3.png","bgimg":"./images/bgimg/background7.jpg"},\
+{"name" : " ","text":"She has a big smile on her face.","image":" ","bgimg":"./images/bgimg/background7.jpg"},\
+{"name" : " ","text":"His suprise is written in his face. At least Sonka seemed to notice.","image":" ","bgimg":"./images/bgimg/background7.jpg"},\
+{"name":"Sonka" , "text" : "Take some","image":"./images/char3.png","bgimg":"./images/bgimg/background7.jpg"},\
+{"name":"Thommy" , "text" : "Thank you","image":"./images/char1.png","bgimg":"./images/bgimg/background7.jpg"},\
+{"name":"Sonka" , "text" : "So. You are a good gamer, I heard?","image":"./images/char3.png","bgimg":"./images/bgimg/background7.jpg"},\
+{"name" : " ","text":"Now Thommy is REALLY suprised.","image":" ","bgimg":"./images/bgimg/background7.jpg"},\
+{"name":"Thommy" , "text" : "What? I mean... Yes. I am","image":"./images/char1.png","bgimg":"./images/bgimg/background7.jpg"},\
+{"name":"Sonka" , "text" : "I love to play video games!","image":"./images/char3.png","bgimg":"./images/bgimg/background7.jpg"},\
+{"name":"Thommy" , "text" : "Really?!","image":"./images/char1.png","bgimg":"./images/bgimg/background7.jpg"},\
+{"name" : " ","text":"Thommy could not blieve that. But from that moment, they spend the rest of the evening together! They talk about his hobbies, her hobbies. His dreams, her dreams. Which music they hear and about their friends. ","image":" ","bgimg":"./images/bgimg/background7.jpg"},\
+{"name" : " ","text":"As longer as the evening lasts, the more they drunk...","image":" ","bgimg":"./images/bgimg/background7.jpg"},\
+{"name" : " ","text":"The next morning","image":" ","bgimg":""},\
+{"name" : " ","text":"Thommy is sitting in his bed, his head buried in his heands. He feels so ashamed. The evening with Sonka was pretty good. But the end was not.","image":" ","bgimg":"./images/bgimg/background6.jpg"},\
+{"name" : " ","text":"He remembered not all of it. But after the chrismas party in the office, Sonka and Thommy went home together (because they could take the same route for a while).","image":" ","bgimg":"./images/bgimg/background6.jpg"},\
+{"name" : " ","text":"And at this way - Thommy does not know why this happened – but he was so drunken that he has to puke. He does not remembered Sonkas reaction.","image":" ","bgimg":"./images/bgimg/background6.jpg"},\
+{"name" : " ","text":"But seriously – it couldn not be positive.","image":" ","bgimg":"./images/bgimg/background6.jpg"},\
+{"name" : " ","text":"His smartphone rings. It is Sonka.","image":" ","bgimg":"./images/bgimg/background6.jpg"}]';
+
+chapter5op2 = '[\
+{"arrayName":"chapter5op2","ending3":true, "name" : " ", "text":"Thommy leaves the appartment and goes to work.","image":"","bgimg":"./images/bgimg/background6.jpg"},\
+{"name" : "Thommy","text":"It´s going to be a long, long night...","image":"./images/char1.png","bgimg":"./images/bgimg/background6.jpg"},\
+{"name" : " ","text":"A few months later","image":" ","bgimg":""},\
+{"name" : "","text":"December. Cold winds blow around the houses. Many dark clouds hang in the sky.","image":"","bgimg":"./images/bgimg/background8.jpg"},\
+{"name" : "","text":"Thommy is sitting in the library and looks out of the window. Enjoying a wonderful daydream. About christmas cookies and many, many gifts","image":"","bgimg":"./images/bgimg/background8.jpg"},\
+{"name" : " ","text":"Yes. It´s christmas time.","image":" ","bgimg":"./images/bgimg/background8.jpg"},\
+{"name" : "","text":"In this moment Dr. Stock comes in. Actually, her name is Jennifer.","image":"","bgimg":"./images/bgimg/background8.jpg"},\
+{"name":"Stock" , "text" : "Good morning, Thommy!","image":"./images/char6.png","bgimg":"./images/bgimg/background8.jpg"},\
+{"name":"Thommy" , "text" : "Good morning, Jennifer!","image":"./images/char1.png","bgimg":"./images/bgimg/background8.jpg"},\
+{"name":"Stock" , "text" : "Your project was great, I heard. She is similing at Thommy. Do you know that it´s time for christmas party?","image":"./images/char6.png","bgimg":"./images/bgimg/background8.jpg"},\
+{"name":"Thommy" , "text" : "Sure. It´s tomorrow, right?","image":"./images/char1.png","bgimg":"./images/bgimg/background8.jpg"},\
+{"name":"Stock" , "text" : "Yes. Tomorrow at 5.00pm. Here in the office.","image":"./images/char6.png","bgimg":"./images/bgimg/background8.jpg"},\
+{"name":"Thommy" , "text" : "I´m looking forward to it!","image":"./images/char1.png","bgimg":"./images/bgimg/background8.jpg"},\
+{"name":"Stock" , "text" : "Great!","image":"./images/char6.png","bgimg":"./images/bgimg/background8.jpg"},\
+{"name" : " ","text":"One day later","image":" ","bgimg":""},\
+{"name" : " ","text":"Christmas party. All of Thommy´s fellow students are there. They are talking about everything, except study themes. That´s like a christmas party in the university should like.","image":" ","bgimg":"./images/bgimg/background7.jpg"},\
+{"name" : " ","text":"Thommy feels very comfortable. And there is one person, that he thinks is very attractive: Sonka. He has drunk enough to feel safe. He actually dares the first step.","image":" ","bgimg":"./images/bgimg/background7.jpg"},\
+{"name":"Thommy" , "text" : "Hey, Sonka.","image":"./images/char1.png","bgimg":"./images/bgimg/background7.jpg"},\
+{"name":"Sonka" , "text" : "Hi Thommy","image":"./images/char3.png","bgimg":"./images/bgimg/background7.jpg"},\
+{"name" : " ","text":"Now he does´nt feel so safe anymore.","image":" ","bgimg":"./images/bgimg/background7.jpg"},\
+{"name":"Thommy" , "text" : "So... You are here.","image":"./images/char1.png","bgimg":"./images/bgimg/background7.jpg"},\
+{"name":"Sonka" , "text" : "Yes... You too.","image":"./images/char3.png","bgimg":"./images/bgimg/background7.jpg"},\
+{"name" : " ","text":"He could barely look into her eyes. Why I´m so shy? he thought ashamed. It seems like she noticed it.","image":" ","bgimg":"./images/bgimg/background7.jpg"},\
+{"name":"Sonka" , "text" : "Could you please wait here?","image":"./images/char3.png","bgimg":"./images/bgimg/background7.jpg"},\
+{"name" : " ","text":"Too fast for an answer from Thommy. He feels so embarrassed. You are such a fool... he thought.","image":" ","bgimg":"./images/bgimg/background7.jpg"},\
+{"name" : " ","text":"But not a second later, Sonka returns. With some drinks.","image":" ","bgimg":"./images/bgimg/background7.jpg"},\
+{"name" : "Sonka" , "text":"I thought you may want to have a drink?","image":"./images/char3.png","bgimg":"./images/bgimg/background7.jpg"},\
+{"name" : " ","text":"She has a big smile on her face.","image":" ","bgimg":"./images/bgimg/background7.jpg"},\
+{"name" : " ","text":"His suprise is written in his face. At least Sonka seemed to notice.","image":" ","bgimg":"./images/bgimg/background7.jpg"},\
+{"name":"Sonka" , "text" : "Take some","image":"./images/char3.png","bgimg":"./images/bgimg/background7.jpg"},\
+{"name":"Thommy" , "text" : "Thank you","image":"./images/char1.png","bgimg":"./images/bgimg/background7.jpg"},\
+{"name":"Sonka" , "text" : "So. You are a good gamer, I heard?","image":"./images/char3.png","bgimg":"./images/bgimg/background7.jpg"},\
+{"name" : " ","text":"Now Thommy is REALLY suprised.","image":" ","bgimg":"./images/bgimg/background7.jpg"},\
+{"name":"Thommy" , "text" : "What? I mean... Yes. I am","image":"./images/char1.png","bgimg":"./images/bgimg/background7.jpg"},\
+{"name":"Sonka" , "text" : "I love to play video games!","image":"./images/char3.png","bgimg":"./images/bgimg/background7.jpg"},\
+{"name":"Thommy" , "text" : "Really?!","image":"./images/char1.png","bgimg":"./images/bgimg/background7.jpg"},\
+{"name" : " ","text":"Thommy couldn´t blieve that. But from that moment, they spend the rest of the evening together! They talk about his hobbies, her hobbies. His dreams, her dreams. Which music they hear and about their friends. ","image":" ","bgimg":"./images/bgimg/background7.jpg"},\
+{"name" : " ","text":"As longer as the evening lasts, the more they drunk...","image":" ","bgimg":"./images/bgimg/background7.jpg"},\
+{"name" : " ","text":"The next morning","image":" ","bgimg":""},\
+{"name" : " ","text":"Thommy is sitting in his bed, his head buried in his heands. He feels so ashamed. The evening with Sonka was pretty good. But the end was not.","image":" ","bgimg":"./images/bgimg/background6.jpg"},\
+{"name" : " ","text":"He remembered not all of it. But after the chrismas party in the office, Sonka and Thommy went home together (because they could take the same route for a while).","image":" ","bgimg":"./images/bgimg/background6.jpg"},\
+{"name" : " ","text":"And at this way - Thommy doesn´t know why this happened – but he was so drunken that he has to puke. He doesn´t remembered Sonka´s reaction.","image":" ","bgimg":"./images/bgimg/background6.jpg"},\
+{"name" : " ","text":"But seriously – it couldn´t be positive.","image":" ","bgimg":"./images/bgimg/background6.jpg"},\
+{"name" : " ","text":"His smartphone rings. It´s Sonka.","image":" ","bgimg":"./images/bgimg/background6.jpg"}]';
+
+chapter5op3 = '[\
+{"arrayName":"chapter5op3","name" : " ","text":"Jeff leaves the appartment and will never look back. He will start a new life. ","image":"","bgimg":""},\
+{"name" : "","text":"But that´s not part of this story, so its time to decide again...","image":"","bgimg":""},\
+{"name" : " ","text":"Game Over","image":" ","bgimg":"./images/bgimg/gameover.jpg"}]';
+
+choose6 = '[{"option1":"Don´t answer the call.","option2":"Answer the call.","option3":"Take your phone and through it out of the window."}]';
+
+chapter6op1 = '[\
+{"arrayName":"chapter6op1","ending3":true, "name" : " ", "text":"Thommy decided to don´t answer the call. He will play video games all the day and don´t waste a thought at last night.","image":"./images/char5.png","bgimg":"./images/bgimg/background6.jpg","skip": true},\
+{"name" : " ","text":"Later that day","image":" ","bgimg":" "},\
+{"name" : " ","text":"Thommy´s phone rings again. He sighed and take a deep breath. With a look on his smartphone, he saw that his dad is calling him.","image":" ","bgimg":"./images/bgimg/background6.jpg"},\
+{"name" : "Thommy","text":"Hi, dad.","image":"./images/char1.png","bgimg":"./images/bgimg/background6.jpg"},\
+{"name" : "Dad","text":"Hello Thommy. How are you?","image":"./images/char7.png","bgimg":"./images/bgimg/background6.jpg"},\
+{"name" : "Thommy","text":"I´m fine. What about you?","image":"./images/char1.png","bgimg":"./images/bgimg/background6.jpg"},\
+{"name" : "Dad","text":"Yes, thanks. Everything is alright. What are you doing today? It´s Saturday!","image":"./images/char7.png","bgimg":"./images/bgimg/background6.jpg"},\
+{"name" : "Thommy","text":"I´m just home. Playing some games.","image":"./images/char1.png","bgimg":"./images/bgimg/background6.jpg"},\
+{"name" : "Dad","text":"Thommy... You have to go out with your friends and have some fun! What about the girls? Do you have a girlfriend?","image":"./images/char7.png","bgimg":"./images/bgimg/background6.jpg"},\
+{"name" : "Thommy","text":"Dad... No. I don´t have a girlfriend.","image":"./images/char1.png","bgimg":"./images/bgimg/background6.jpg"},\
+{"name" : "Dad","text":"That´s absolutely okay, Thommy. But you won´t get one if you are only at home! You may could go out with your friends and have some fun?","image":"./images/char7.png","bgimg":"./images/bgimg/background6.jpg"}]';
+
+chapter6op2 = '[\
+{"arrayName":"chapter6op2","ending2":true, "name" : "Thommy","text":"Hello?","image":" ","bgimg":"./images/bgimg/background6.jpg","skip": true},\
+{"name" : "Sonka","text":"Hi Thommy. It´s me, Sonka.","image":"./images/char3.png","bgimg":"./images/bgimg/background6.jpg"},\
+{"name" : "Thommy","text":"Hi... Sonka...","image":"./images/char1.png","bgimg":"./images/bgimg/background6.jpg"},\
+{"name" : "Sonka","text":"How are you today? Are you alright?","image":"./images/char3.png","bgimg":"./images/bgimg/background6.jpg"},\
+{"name" : "Thommy","text":"Sure, I am.","image":"./images/char1.png","bgimg":"./images/bgimg/background6.jpg"},\
+{"name" : "Sonka","text":"I want to be safe that you are alright, because you may have drunk too much yesterday","image":"./images/char3.png","bgimg":"./images/bgimg/background6.jpg"},\
+{"name" : " ","text":"She says and Thommy knows that she is smiling right now. He feels it in her voice.","image":" ","bgimg":"./images/bgimg/background6.jpg"},\
+{"name" : "Thommy","text":"Thank you, Sonka. I am alright, really.","image":"./images/char1.png","bgimg":"./images/bgimg/background6.jpg"},\
+{"name" : "Sonka","text":"Nice to hear that. I want to ask you something.","image":"./images/char3.png","bgimg":"./images/bgimg/background6.jpg"},\
+{"name" : "Thommy","text":"Sure. What ever you want.","image":"./images/char1.png","bgimg":"./images/bgimg/background6.jpg"},\
+{"name" : "Sonka","text":"Do you want to have a date with me?","image":"./images/char3.png","bgimg":"./images/bgimg/background6.jpg"}]';
+
+chapter6op3 = '[\
+{"arrayName":"chapter6op3","ending1":true, "name" : " ", "text":"Thommy hungs up. Silence. And then... ","image":" ","bgimg":""},\
+{"name" : " ","text":"A lonely tear runs down his face.","image":" ","bgimg":""},\
+{"name" : " ","text":"Why I am such a fool!?","image":" ","bgimg":""},\
+{"name" : " ","text":"Lonely. Humiliated.","image":" ","bgimg":""},\
+{"name" : " ","text":"Thommy could never be happy again...","image":" ","bgimg":""},\
+{"name" : "Ending3","text":"Game Over","image":" ","bgimg":"./images/bgimg/gameover.jpg"}]';
+
+choose7 = '[{"option1":"Sure!","option2":"I am sorry. But I can´t. I have to focus on work you know?","option3":"Nevermind. Just hung up."}]';
+
+chapter7op1 = '[\
+{"arrayName":"chapter7op1","ending2":true, "name" : "", "text":"Tommy sits in his appartment and thinks about the last years.  The TV is running. N24. He has completed his education. He works now for 8 hours a day, 5 days per week. Week after week.","image":" ","bgimg":"./images/bgimg/background5.jpg"},\
+{"name" : "Thommy","text":"My work is so boring","image":"./images/char1.png","bgimg":"./images/bgimg/background5.jpg"},\
+{"name" : "","text":"At this moment, Sonka comes in.","image":" ","bgimg":"./images/bgimg/background5.jpg"},\
+{"name" : "Sonka","text":"Hey, sweetheart.","image":"./images/char3.png","bgimg":"./images/bgimg/background5.jpg"},\
+{"name" : "Thommy","text":"Hi baby.","image":"./images/char1.png","bgimg":"./images/bgimg/background5.jpg"},\
+{"name" : "Sonka","text":"I go for a quick shower","image":"./images/char3.png","bgimg":"./images/bgimg/background5.jpg"},\
+{"name" : "","text":"He remembers the first date that they had. It was in a restaurant. It was great. She was so cute and he was so shy. It seems to be so long ago.","image":" ","bgimg":"./images/bgimg/background5.jpg"},\
+{"name" : "","text":"Tommy switches the TV program. A show with a woman that proudly presents a golden bracelet. ","image":" ","bgimg":"./images/bgimg/background5.jpg"},\
+{"name" : "","text":"The next thing she shows is a wedding ring. That makes Tommy thoughtful.","image":" ","bgimg":"./images/bgimg/background5.jpg"},\
+{"name" : "Thommy","text":"A wedding ring... Should I marry Sonka?","image":"./images/char1.png","bgimg":"./images/bgimg/background5.jpg"}]';
+
+chapter7op2 = '[\
+{"arrayName":"chapter7op2","ending3":true, "name" : "", "text":"Thommy sits in his appartment and watchs TV. He is tired of his work and he almost falls asleep.The TV shows a documentary about Hitler.","image":" ","bgimg":"./images/bgimg/background5.jpg"},\
+{"name" : "","text":"A bag of chips in his hands, taste like Currywurst, he thinks about the last years. He has much fun with Marco.","image":" ","bgimg":"./images/bgimg/background5.jpg"},\
+{"name" : "","text":"But in the last few weeks, Marco has changed. He has a girlfriend now. And that´s okay for Thommy. ","image":" ","bgimg":"./images/bgimg/background5.jpg"},\
+{"name" : "","text":"But the time that he has with Marco is getting rarer. And since last week, they live together. In another city.","image":" ","bgimg":"./images/bgimg/background5.jpg"},\
+{"name" : "","text":"Thommy fears the worst. He switchs the TV program. A woman that produly presents a bracelet.","image":" ","bgimg":"./images/bgimg/background5.jpg"},\
+{"name" : "","text":"Then she offers a wedding ring.","image":" ","bgimg":"./images/bgimg/background5.jpg"},\
+{"name" : "Thommy","text":"Thommy thinks about how his life would looks like if he would have a girlfriend.","image":"./images/char1.png","bgimg":"./images/bgimg/background5.jpg"},\
+{"name" : "Thommy","text":"I feel lonely","image":"./images/char1.png","bgimg":"./images/bgimg/background5.jpg"}]';
+
+chapter7op3 = '[\
+{"arrayName":"chapter7op3","ending1":true, "name" : " ", "text":"Thommy hungs up. Silence. And then... ","image":" ","bgimg":""},\
+{"name" : " ","text":"A lonely tear runs down his face.","image":" ","bgimg":""},\
+{"name" : " ","text":"Why I am such a fool!?","image":" ","bgimg":""},\
+{"name" : " ","text":"Lonely. Humiliated.","image":" ","bgimg":""},\
+{"name" : " ","text":"Thommy could never be happy again...","image":" ","bgimg":""},\
+{"name" : "Ending3","text":"Game Over","image":" ","bgimg":"./images/bgimg/gameover.jpg"}]';
+
+choose8 = '[{"option1":"Go to Sonka!","option2":"Go to bed, so you are fit for tomorrow!","option3":"Jump out of the window."}]';
+
+chapter8op1 = '[\
+{"arrayName":"chapter8op1","ending2":true, "name" : "", "text":"Evening","image":" ","bgimg":""},\
+{"name" : "","text":"Thommy has found the perfect place to ask Sonka. It´s the place where they have their first date. That is three years ago. He decided to ask Sonka here. And today it is THAT day.","image":" ","bgimg":"./images/bgimg/background9.jpg"},\
+{"name" : "Sonka","text":"It was such a great idea, Thommy!","image":"./images/char3.png","bgimg":"./images/bgimg/background9.jpg"},\
+{"name" : "Thommy","text":"Yes. It is.","image":"./images/char1.png","bgimg":"./images/bgimg/background9.jpg"},\
+{"name" : "","text":"They have a really nice evening together. It was like their first date. With many stirring feelings.","image":" ","bgimg":"./images/bgimg/background9.jpg"},\
+{"name" : "","text":"And after that wodnerful evening, Thommy dares the big step.","image":" ","bgimg":"./images/bgimg/background9.jpg"},\
+{"name" : "Thommy","text":"We have such a beautiful evening. And you are such a lovely girlfriend. Like three years now","image":"./images/char1.png","bgimg":"./images/bgimg/background9.jpg"},\
+{"name" : "Sonka","text":"And you are such a good friend for me and my favourite human being","image":"./images/char3.png","bgimg":"./images/bgimg/background9.jpg"},\
+{"name" : "Thommy","text":"I have something for you...","image":"./images/char1.png","bgimg":"./images/bgimg/background9.jpg"},\
+{"name" : "","text":"He goes down on his knees and tooks out the ring.","image":" ","bgimg":"./images/bgimg/background9.jpg"},\
+{"name" : "Thommy","text":"Sonka Walker. Do you want to marry me?","image":"./images/char1.png","bgimg":"./images/bgimg/background9.jpg"},\
+{"name" : "Sonka","text":"YESS! SURE I WANT!!","image":"./images/char3.png","bgimg":"./images/bgimg/background9.jpg"},\
+{"name" : "Sonka","text":"I love you so much, Thommy!","image":"./images/char3.png","bgimg":"./images/bgimg/background9.jpg"},\
+{"name" : "Thommy","text":"I love you too","image":"./images/char1.png","bgimg":"./images/bgimg/background9.jpg"},\
+{"name" : "","text":"A few months later","image":" ","bgimg":""},\
+{"name" : "","text":"His decision to marry Sonka was great! But since then, there is one subject that they always discuss: To get a baby – or not.","image":" ","bgimg":"./images/bgimg/background5.jpg"},\
+{"name" : "","text":"Thommy thinks, it is too early. But Sonka wants to start a family soon. That´s a big problem for Thommy.","image":" ","bgimg":"./images/bgimg/background5.jpg"},\
+{"name" : "","text":"They argue often. And its poision for their relationship.","image":" ","bgimg":"./images/bgimg/background5.jpg"}]';
+
+chapter8op2 = '[\
+{"arrayName":"chapter8op2","ending3":true, "name" : "", "text":"Holidays. Thommy loves it. He works all the day. After a few hours, Thommy´s phone rings.","image":" ","bgimg":"./images/bgimg/background3.jpg"},\
+{"name" : "","text":"Marco. Thommy is surprised.","image":" ","bgimg":"./images/bgimg/background3.jpg"},\
+{"name" : "Thommy","text":"Hello?","image":"./images/char1.png","bgimg":"./images/bgimg/background3.jpg"},\
+{"name" : "Marco","text":"Hi Thommy! It´s me, Marco.","image":"./images/char5.png","bgimg":"./images/bgimg/background3.jpg"},\
+{"name" : "Thommy","text":"Hi, Marco. Whats up?","image":"./images/char1.png","bgimg":"./images/bgimg/background3.jpg"},\
+{"name" : "Marco","text":"I´m sitting here at home and I´m so bored. I want to go out today! Do you want to go with me?","image":"./images/char5.png","bgimg":"./images/bgimg/background3.jpg"}]';
+
+chapter8op3 = '[\
+{"arrayName":"chapter8op3","ending1":true, "name" : " ", "text":"After he leaves, his phone rings. A message. There is written:","image":" ","bgimg":""},\
+{"name" : " ","text":"FUCK YOU! DON´T CALL ME AGAIN!","image":" ","bgimg":""},\
+{"name" : "Thommy","text":"People today don´t have a sense of humor...","image":" ","bgimg":"./images/bgimg/gameover.jpg"}]';
+
+choose9 = '[{"option1":"Just do it!","option2":"You need Space.","option3":"I´ll go and buy some cigarettes. I´ll be right back!"}]';
+
+endingOne = '[\
+{"name" : "","text":"Your life wasn´t exactly allined. Buiness and friendship. Career and love. Both of that was important for you. ","image":"","bgimg":"./images/bgimg/ending1.jpg","skip": true},\
+{"name" : " ","text":"And so you always decided for that what you need in your situation.","image":" ","bgimg":"./images/bgimg/ending1.jpg"},\
+{"name" : " ","text":"But think about it. Is the middle way still the best way?  You want everything, but you don´t do anything in your best way. ","image":" ","bgimg":"./images/bgimg/ending1.jpg"},\
+{"name" : " ","text":"A bit of everything. The real middle. Truly.","image":" ","bgimg":"./images/bgimg/theend.jpg"}]';
+
+endingTwo = '[\
+{"name" : "","text":"You was always a good mate! You never pushed your friends back and you had always listened to them!","image":"","bgimg":"./images/bgimg/ending2.jpg","skip": true},\
+{"name" : " ","text":"Your life was definitley full of love and fun, without any thought about big business.","image":" ","bgimg":"./images/bgimg/ending2.jpg"},\
+{"name" : " ","text":"But are you really happy without money?  Without the possibility to spend your holidays wherever you want to? To buy what ever you want?","image":"","bgimg":"./images/bgimg/ending2.jpg"},\
+{"name" : " ","text":"It was your decision... and you have chosen.","image":" ","bgimg":"./images/bgimg/theend.jpg"}]';
+
+endingThree = '[\
+{"name" : "","text":"Business! That word was everything for you. You never waste time for things like friends or love. Who needs that if you can drive every car you want?","image":"","bgimg":"./images/bgimg/ending3.jpg","skip": true},\
+{"name" : " ","text":"Live where ever you want and do what ever you want?! No one need that. Absolutely.","image":" ","bgimg":"./images/bgimg/ending3.jpg"},\
+{"name" : " ","text":"You don´t need that. Your life was full of money, cars and lot of fun with all of that.","image":" ","bgimg":"./images/bgimg/ending3.jpg"},\
+{"name" : " ","text":"Your´re getting older and older. And once you died, who will remember?  No one need that.","image":" ","bgimg":"./images/bgimg/theend.jpg"}]';
